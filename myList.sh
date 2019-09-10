@@ -1,7 +1,5 @@
 # myList - A script to produce an HTML file of file names
 
-pwd='pwd'
-
 fileList()
 {
 for entry in $PWD/*
