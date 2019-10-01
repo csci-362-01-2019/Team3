@@ -1,0 +1,132 @@
+Each test case is created in javascript and run from the command line using:
+	node index.js --dryrun 'test'
+
+--dryrun, -d  Run the fetch process but do not attempt to save to the database
+              and instead print to console, useful for testing.
+
+
+Test case 1: 
+	Input:	parameter: 'pm25',
+	      	unit: 'ppq', //Error: Should be ppm
+	      	value: 10,
+	      	location: 'test1',
+	        coordinates: {
+	        latitude: -20,
+	        longitude: 34
+	        },
+	        country: 'US',
+	        city: 'Test',
+	        sourceName: 'Test',
+	        mobile: false,
+	        sourceType: 'government',
+	        attribution: [{
+	        name: 'test',
+	        url: 'http://test.case'
+	        }],
+	        averagingPeriod: {
+	          value: 1,
+	          unit: 'hours'
+	        }
+
+	Expected Output: 'instance.unit is not one of enum values: µg/m³,ppm'
+
+Test case 2:
+	Input:	parameter: '01', //Error: Not a valid parameter
+	      	unit: 'ppm',
+	      	value: 10,
+	      	location: 'test2',
+	        coordinates: {
+	        latitude: -20,
+	        longitude: 34
+	        },
+	        country: 'US',
+	        city: 'Test',
+	        sourceName: 'Test',
+	        mobile: false,
+	        sourceType: 'government',
+	        attribution: [{
+	        name: 'test',
+	        url: 'http://test.case'
+	        }],
+	        averagingPeriod: {
+	          value: 1,
+	          unit: 'hours'
+	        }
+
+	Expected Output: 'instance parameter is not one of enum values: pm25,pm10,no2,so2,o3,co,bc'
+
+Test case 3:
+	Input:	parameter: 'no2',
+	      	unit: 'ppm',
+	      	value: Q, //Error: Value must be a number
+	      	location: 'test3',
+	        coordinates: {
+	        latitude: -20,
+	        longitude: 34
+	        },
+	        country: 'US',
+	        city: 'Test',
+	        sourceName: 'Test',
+	        mobile: false,
+	        sourceType: 'government',
+	        attribution: [{
+	        name: 'test',
+	        url: 'http://test.case'
+	        }],
+	        averagingPeriod: {
+	          value: 1,
+	          unit: 'hours'
+	        }	
+
+	Expected Output: 'instance value is not of a type(s) number'
+
+Test case 4:
+	Input:	parameter: 'pm25', //Ideal case
+	      	unit: 'ppm',
+	      	value: 10, 
+	      	location: 'test4',
+	        coordinates: {
+	        latitude: -20,
+	        longitude: 34
+	        },
+	        country: 'US',
+	        city: 'Test',
+	        sourceName: 'Test',
+	        mobile: false,
+	        sourceType: 'government',
+	        attribution: [{
+	        name: 'test',
+	        url: 'http://test.case'
+	        }],
+	        averagingPeriod: {
+	          value: 1,
+	          unit: 'hours'
+	        }	
+
+	Expected Output: 'Data source accepted.'
+
+Test case 5:
+	Input:  parameter: 'pm25',
+	      	unit: 'ppm',
+	      	value: 10, 
+	      	location: 'test5',
+	        coordinates: {
+	        latitude: -20,
+	        longitude: 34
+	        },
+	        country: , //Error: Country field required
+	        city: 'Test',
+	        sourceName: 'Test',
+	        mobile: false,
+	        sourceType: 'government',
+	        attribution: [{
+	        name: 'test',
+	        url: 'http://test.case'
+	        }],
+	        averagingPeriod: {
+	          value: 1,
+	          unit: 'hours'
+	        }	
+
+	Expected Output: 'instance requires property "country"'
+
