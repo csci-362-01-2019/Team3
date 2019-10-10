@@ -1,0 +1,7 @@
+Case#: 
+Input: test
+Oracle: ""
+
+node index.js -d -s 'test' >> outputCMD.txt
+
+
