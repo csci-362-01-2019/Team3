@@ -2,8 +2,8 @@
 
 # This is the script for running our project
 
-passCount=0
-failCount=0
+passCount=$1
+failCount=$2
 
 #cd .. # cd to Main file structure
 
@@ -24,11 +24,15 @@ failCount=0
 
 echo "Test: $testNum"
 echo "Testing File: $testFile"
-$nodeCMD > testingOutputs.txt  #The node command has the needed textFile in it.
+$nodeCMD #> testingOutputs.txt  #The node command has the needed textFile in it.
 # grep testing........ 
 if grep -q "$oracle" testingOutputs.txt;
-    then passCount++ echo "Test passed"
-#else
-#    then failCount++ echo "Test failed"
+then
+	       	let $passCount++ echo "Test passed"
+else
+
+	let failCount++ 
+       	echo "Test failed"
+	echo $failCount
 fi
 #done  # Done for the Main loop
