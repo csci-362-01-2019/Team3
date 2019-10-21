@@ -1,0 +1,9 @@
+Case#: 
+Input: test
+Component: component being tested
+node index.js -d -s 'test' >> outputCMD.txt
+Oracle: ""
+
+
+
+
