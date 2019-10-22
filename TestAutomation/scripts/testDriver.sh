@@ -17,12 +17,16 @@ cd ..
         # while to assign content to variables
         do
             echo "$testNum $testFile $units $nodeCMD $oracle"
+	     
         done <"$file"   # done for variable assignment
+	cd project	
+	bash -c "$nodeCMD" #> testingOutput.txt";
+	cd ..
     done # done for reading in the file
 
-echo "Test: $testNum"
-echo "Testing File: $testFile"
-$nodeCMD > testingOutputs.txt  #The node command has the needed textFile in it.
+#echo "Test: $testNum"
+#echo "Testing File: $testFile"
+#$nodeCMD > testingOutputs.txt  #The node command has the needed textFile in it.
 # grep testing........ 
 if grep -q "$oracle" testingOutputs.txt;
     then
@@ -31,4 +35,5 @@ if grep -q "$oracle" testingOutputs.txt;
 #else
 #    then failCount++ echo "Test failed"
 fi
+echo $passCount
 #done  # Done for the Main loop
