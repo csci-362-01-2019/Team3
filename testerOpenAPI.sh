@@ -5,7 +5,8 @@
 passCount=$1
 failCount=$2
 
-#cd .. # cd to Main file structure
+#cd .. # cd to Main file structure 
+#He will run the sprit ./scripts/runAllTests
 
 #TESTCASES=/test_cases/*
 #for file in TESTCASES   # Main loop reading in files
