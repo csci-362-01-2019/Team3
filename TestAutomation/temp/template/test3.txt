@@ -1,0 +1,7 @@
+Case#: 3
+Input: test3.txt
+Component: unit
+node index.js -d -s 'test3'
+Oracle: 1 occurrences of instance.unit is not one of enum values: µg/m³,ppm
+
+

@@ -1,0 +1,5 @@
+Case#: 15
+Input: test15.txt
+Component: longitude
+node index.js -d -s 'test15'
+Oracle: instance.coordinates requires property "longitude"

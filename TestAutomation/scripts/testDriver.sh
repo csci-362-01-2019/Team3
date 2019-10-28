@@ -13,27 +13,29 @@ cd ..
     for file in testCases/*.txt; #for reading in contents 
     do
     echo "Running: $file"
-        while IFS='\' read -r testNum testFile component nodeCMD oracle;  #change when get testCases
+        while IFS='\' read -r testNum testFile  oracle;  #change when get testCases
         # while to assign content to variables
         do
-            echo "$testNum $testFile $units $nodeCMD $oracle"
+            echo "$testNum $testFile $oracle"
 	     
-        done <"$file"   # done for variable assignment
-	cd project	
-	bash -c "$nodeCMD" #> testingOutput.txt";
+        cd project
+	
+	node index.js -d -s \'"$testFile"\' > testOutput.txt
+	if grep -q "$oracle" testOutput.txt
+   	 then
+	    let  passCount++
+	    echo "Test passed"
+	#else
+	#    then failCount++ echo "Test failed"
+	fi
 	cd ..
+	done <"$file" # done for variable assignment
+
     done # done for reading in the file
 
 #echo "Test: $testNum"
 #echo "Testing File: $testFile"
 #$nodeCMD > testingOutputs.txt  #The node command has the needed textFile in it.
 # grep testing........ 
-if grep -q "$oracle" testingOutputs.txt;
-    then
-	    let  passCount++
-	    echo "Test passed"
-#else
-#    then failCount++ echo "Test failed"
-fi
 echo $passCount
 #done  # Done for the Main loop

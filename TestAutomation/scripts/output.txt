@@ -1,0 +1,32 @@
+Running: testCases/test1.txt
+1
+test1
+node project/index.js -d -s test1
+1 occurrences of instance.unit is not one of enum values: µg/m³,ppm
+passed
+Running: testCases/test2.txt
+2
+test2
+node project/index.js -d -s test2
+1 occurrences of instance.unit is not one of enum values: µg/m³,ppm
+passed
+Running: testCases/test3.txt
+3
+test3
+node project/index.js -d -s test3
+1 occurrences of instance.unit is not one of enum values: µg/m³,ppm
+passed
+Running: testCases/test4.txt
+4
+test4
+node project/index.js -d -s test4
+1 occurrences of instance.unit is not one of enum values: µg/m³,ppm
+passed
+Running: testCases/test5.txt
+5
+test5
+node project/index.js -d -s test5
+1 occurrences of instance.unit is not one of enum values: µg/m³,ppm
+passed
+5 tests passed
+0 tests failed
