@@ -1,0 +1,10 @@
+2019-10-08T12:52:29.353Z - [32minfo[39m: --- Dry run for Testing, nothing is saved to the database. ---
+2019-10-08T12:52:29.374Z - [32minfo[39m: Looking up source test1
+2019-10-08T12:52:29.428Z - [32minfo[39m: Getting stream for "test1" from "Dummy"
+2019-10-08T12:52:29.441Z - [32minfo[39m: Fetch results for test1
+2019-10-08T12:52:29.441Z - [32minfo[39m: ///////
+2019-10-08T12:52:29.441Z - [32minfo[39m: New measurements found for "test1": 6 in 0.011s
+2019-10-08T12:52:29.442Z - [32minfo[39m: 1 occurrences of instance.unit is not one of enum values: µg/m³,ppm
+2019-10-08T12:52:29.442Z - [32minfo[39m: ///////
+2019-10-08T12:52:29.442Z - [32minfo[39m:  itemsInserted=6, timeStarted=1570539149355, results=[message=[Dry Run] New measurements found for test1: 6, instance.unit is not one of enum values: µg/m³,ppm=1, count=6, duration=0.011, sourceName=test1], instance.unit is not one of enum values: µg/m³,ppm=1, timeEnded=1570539149442
+2019-10-08T12:52:29.443Z - [32minfo[39m: Dry run ended.

@@ -1,0 +1,445 @@
+2019-10-08T12:50:34.132Z - [32minfo[39m: --- Dry run for Testing, nothing is saved to the database. ---
+2019-10-08T12:50:34.737Z - [32minfo[39m: Getting stream for "EEA Andorra" from "eea-direct"
+2019-10-08T12:50:34.739Z - [32minfo[39m: Getting stream for "StateAir_AbuDhabi" from "stateair"
+2019-10-08T12:50:34.743Z - [32minfo[39m: Getting stream for "StateAir_Dubai" from "stateair"
+2019-10-08T12:50:34.744Z - [32minfo[39m: Getting stream for "Australia - New South Wales" from "nsw"
+2019-10-08T12:50:34.745Z - [32minfo[39m: Getting stream for "Australia - Queensland" from "queensland"
+2019-10-08T12:50:34.745Z - [32minfo[39m: Getting stream for "Australia - Tasmania" from "tasmania"
+2019-10-08T12:50:34.745Z - [32minfo[39m: Getting stream for "Bosnia2" from "fhmzbih2"
+2019-10-08T12:50:34.745Z - [32minfo[39m: Getting stream for "Bosnia_Tuzlanski" from "tuzlanski"
+2019-10-08T12:50:34.746Z - [32minfo[39m: Getting stream for "Sarajevo" from "stateair"
+2019-10-08T12:50:34.746Z - [32minfo[39m: Getting stream for "StateAir_Dhaka" from "stateair"
+2019-10-08T12:50:34.746Z - [32minfo[39m: Getting stream for "EEA Belgium" from "eea-direct"
+2019-10-08T12:50:34.747Z - [32minfo[39m: Getting stream for "StateAir_Manama" from "stateair"
+2019-10-08T12:50:34.747Z - [32minfo[39m: Getting stream for "Sao Paulo" from "saopaulo"
+2019-10-08T12:50:34.747Z - [32minfo[39m: Getting stream for "EEA Switzerland" from "eea-direct"
+2019-10-08T12:50:34.748Z - [32minfo[39m: Getting stream for "Chile - SINCA" from "chile"
+2019-10-08T12:50:34.748Z - [32minfo[39m: Getting stream for "Beijing US Embassy" from "beijing"
+2019-10-08T12:50:34.749Z - [32minfo[39m: Getting stream for "Chengdu" from "beijing"
+2019-10-08T12:50:34.749Z - [32minfo[39m: Getting stream for "Guangzhou" from "beijing"
+2019-10-08T12:50:34.749Z - [32minfo[39m: Getting stream for "Shanghai" from "beijing"
+2019-10-08T12:50:34.749Z - [32minfo[39m: Getting stream for "Shenyang" from "beijing"
+2019-10-08T12:50:34.749Z - [32minfo[39m: Getting stream for "ChinaAQIData" from "chinaaqidata"
+2019-10-08T12:50:34.750Z - [32minfo[39m: Getting stream for "StateAir_Bogota" from "stateair"
+2019-10-08T12:50:34.750Z - [32minfo[39m: Getting stream for "Medellin" from "medellin"
+2019-10-08T12:50:34.750Z - [32minfo[39m: Getting stream for "StateAir_Curacao" from "stateair"
+2019-10-08T12:50:34.751Z - [32minfo[39m: Getting stream for "EEA Czech Republic" from "eea-direct"
+2019-10-08T12:50:34.751Z - [32minfo[39m: Getting stream for "EEA Germany" from "eea-direct"
+2019-10-08T12:50:34.753Z - [32minfo[39m: Getting stream for "EEA Denmark" from "eea-direct"
+2019-10-08T12:50:34.754Z - [32minfo[39m: Getting stream for "StateAir_Algiers" from "stateair"
+2019-10-08T12:50:34.754Z - [32minfo[39m: Getting stream for "EEA Spain" from "eea-direct"
+2019-10-08T12:50:34.755Z - [32minfo[39m: Getting stream for "Andalucia" from "andalucia"
+2019-10-08T12:50:34.755Z - [32minfo[39m: Getting stream for "StateAir_Addis_Ababa_Central" from "stateair"
+2019-10-08T12:50:34.756Z - [32minfo[39m: Getting stream for "StateAir_Addis_Ababa_School" from "stateair"
+2019-10-08T12:50:34.756Z - [32minfo[39m: Getting stream for "EEA Finland" from "eea-direct"
+2019-10-08T12:50:34.757Z - [32minfo[39m: Getting stream for "EEA France" from "eea-direct"
+2019-10-08T12:50:34.757Z - [32minfo[39m: Getting stream for "DEFRA" from "defra"
+2019-10-08T12:50:34.758Z - [32minfo[39m: Getting stream for "EEA Gibraltar" from "eea-direct"
+2019-10-08T12:50:34.759Z - [32minfo[39m: Getting stream for "Hong Kong" from "hong-kong"
+2019-10-08T12:50:34.759Z - [32minfo[39m: Getting stream for "EEA Croatia" from "eea-direct"
+2019-10-08T12:50:34.760Z - [32minfo[39m: Getting stream for "EEA Hungary" from "eea-direct"
+2019-10-08T12:50:34.760Z - [32minfo[39m: Getting stream for "StateAir_JakartaSouth" from "stateair"
+2019-10-08T12:50:34.760Z - [32minfo[39m: Getting stream for "StateAir_JakartaCentral" from "stateair"
+2019-10-08T12:50:34.761Z - [32minfo[39m: Getting stream for "EEA Ireland" from "eea-direct"
+2019-10-08T12:50:34.763Z - [32minfo[39m: Getting stream for "caaqm" from "caaqm"
+2019-10-08T12:50:34.764Z - [32minfo[39m: Getting stream for "StateAir_Chennai" from "stateair"
+2019-10-08T12:50:34.765Z - [32minfo[39m: Getting stream for "StateAir_Hyderabad" from "stateair"
+2019-10-08T12:50:34.769Z - [32minfo[39m: Getting stream for "StateAir_Kolkata" from "stateair"
+2019-10-08T12:50:34.770Z - [32minfo[39m: Getting stream for "StateAir_Mumbai" from "stateair"
+2019-10-08T12:50:34.770Z - [32minfo[39m: Getting stream for "StateAir_NewDelhi" from "stateair"
+2019-10-08T12:50:34.771Z - [32minfo[39m: Getting stream for "AirNow" from "airnow-http"
+2019-10-08T12:50:34.771Z - [32minfo[39m: Getting stream for "StateAir_Baghdad" from "stateair"
+2019-10-08T12:50:34.771Z - [32minfo[39m: Getting stream for "ARPALAZIO" from "arpalazio"
+2019-10-08T12:50:34.772Z - [32minfo[39m: Getting stream for "Arpae Emilia-Romagna" from "arpae"
+2019-10-08T12:50:34.777Z - [32minfo[39m: Getting stream for "StateAir_Bishkek" from "stateair"
+2019-10-08T12:50:34.777Z - [32minfo[39m: Getting stream for "StateAir_KuwaitCity" from "stateair"
+2019-10-08T12:50:34.777Z - [32minfo[39m: Getting stream for "StateAir_Astana" from "stateair"
+2019-10-08T12:50:34.778Z - [32minfo[39m: Getting stream for "StateAir_Vientiane" from "stateair"
+2019-10-08T12:50:34.778Z - [32minfo[39m: Getting stream for "StateAir_Colombo" from "stateair"
+2019-10-08T12:50:34.778Z - [32minfo[39m: Getting stream for "EEA Lithuania" from "eea-direct"
+2019-10-08T12:50:34.779Z - [32minfo[39m: Getting stream for "EEA Luxemburg" from "eea-direct"
+2019-10-08T12:50:34.779Z - [32minfo[39m: Getting stream for "EEA Latvia" from "eea-direct"
+2019-10-08T12:50:34.779Z - [32minfo[39m: Getting stream for "EEA Macedonia" from "eea-direct"
+2019-10-08T12:50:34.780Z - [32minfo[39m: Getting stream for "StateAir_Rangoon" from "stateair"
+2019-10-08T12:50:34.780Z - [32minfo[39m: Getting stream for "StateAir_Ulaanbaatar" from "stateair"
+2019-10-08T12:50:34.780Z - [32minfo[39m: Getting stream for "Tsag-Agaar.gov.mn" from "tsag-agaar"
+2019-10-08T12:50:34.781Z - [32minfo[39m: Getting stream for "EEA Malta" from "eea-direct"
+2019-10-08T12:50:34.781Z - [32minfo[39m: Getting stream for "Netherlands" from "netherlands"
+2019-10-08T12:50:34.781Z - [32minfo[39m: Getting stream for "Norway" from "norway"
+2019-10-08T12:50:34.781Z - [32minfo[39m: Getting stream for "StateAir_PhoraDurbar" from "stateair"
+2019-10-08T12:50:34.782Z - [32minfo[39m: Getting stream for "StateAir_Kathmandu" from "stateair"
+2019-10-08T12:50:34.782Z - [32minfo[39m: Getting stream for "StateAir_Lima" from "stateair"
+2019-10-08T12:50:34.782Z - [32minfo[39m: Getting stream for "Senamhi" from "senamhi"
+2019-10-08T12:50:34.782Z - [32minfo[39m: Getting stream for "StateAir_Islamabad" from "stateair"
+2019-10-08T12:50:34.783Z - [32minfo[39m: Getting stream for "StateAir_Karachi" from "stateair"
+2019-10-08T12:50:34.783Z - [32minfo[39m: Getting stream for "StateAir_Lahore" from "stateair"
+2019-10-08T12:50:34.783Z - [32minfo[39m: Getting stream for "StateAir_Peshawar" from "stateair"
+2019-10-08T12:50:34.783Z - [32minfo[39m: Getting stream for "GIOS" from "gios-poland"
+2019-10-08T12:50:34.784Z - [32minfo[39m: Getting stream for "EEA Portugal" from "eea-direct"
+2019-10-08T12:50:34.784Z - [32minfo[39m: Getting stream for "EEA Servia" from "eea-direct"
+2019-10-08T12:50:34.784Z - [32minfo[39m: Getting stream for "Sweden" from "sweden"
+2019-10-08T12:50:34.784Z - [32minfo[39m: Getting stream for "Slovenian Environment Agency" from "slovenia"
+2019-10-08T12:50:34.785Z - [32minfo[39m: Getting stream for "EEA Slovakia" from "eea-direct"
+2019-10-08T12:50:34.785Z - [32minfo[39m: Getting stream for "Thailand" from "thailand"
+2019-10-08T12:50:34.790Z - [32minfo[39m: Getting stream for "Turkey" from "turkey"
+2019-10-08T12:50:34.845Z - [32minfo[39m: Getting stream for "Taiwan" from "taiwan"
+2019-10-08T12:50:34.846Z - [32minfo[39m: Getting stream for "StateAir_Kampala" from "stateair"
+2019-10-08T12:50:34.846Z - [32minfo[39m: Getting stream for "StateAir_Tashkent" from "stateair"
+2019-10-08T12:50:34.846Z - [32minfo[39m: Getting stream for "StateAir_Hanoi" from "stateair"
+2019-10-08T12:50:34.846Z - [32minfo[39m: Getting stream for "Ho Chi Minh City" from "stateair"
+2019-10-08T12:50:34.847Z - [32minfo[39m: Getting stream for "StateAir_Pristina" from "stateair"
+2019-10-08T12:50:34.847Z - [32minfo[39m: Getting stream for "Kosovo" from "kosovo"
+2019-10-08T12:50:35.173Z - [32minfo[39m: Fetch results for StateAir_AbuDhabi
+2019-10-08T12:50:35.174Z - [32minfo[39m: ///////
+2019-10-08T12:50:35.174Z - [32minfo[39m: New measurements found for "StateAir_AbuDhabi": 48 in 0.034s
+2019-10-08T12:50:35.174Z - [32minfo[39m: ///////
+2019-10-08T12:50:35.333Z - [32minfo[39m: Fetch results for StateAir_Dubai
+2019-10-08T12:50:35.333Z - [32minfo[39m: ///////
+2019-10-08T12:50:35.333Z - [32minfo[39m: New measurements found for "StateAir_Dubai": 24 in 0.015s
+2019-10-08T12:50:35.333Z - [32minfo[39m: ///////
+2019-10-08T12:50:35.895Z - [32minfo[39m: Fetch results for StateAir_Manama
+2019-10-08T12:50:35.895Z - [32minfo[39m: ///////
+2019-10-08T12:50:35.895Z - [32minfo[39m: New measurements found for "StateAir_Manama": 0 in 0.001s
+2019-10-08T12:50:35.895Z - [32minfo[39m: ///////
+2019-10-08T12:50:35.918Z - [32minfo[39m: Fetch results for StateAir_Dhaka
+2019-10-08T12:50:35.918Z - [32minfo[39m: ///////
+2019-10-08T12:50:35.918Z - [32minfo[39m: New measurements found for "StateAir_Dhaka": 24 in 0.006s
+2019-10-08T12:50:35.918Z - [32minfo[39m: ///////
+2019-10-08T12:50:35.941Z - [32minfo[39m: Fetch results for Sarajevo
+2019-10-08T12:50:35.941Z - [32minfo[39m: ///////
+2019-10-08T12:50:35.942Z - [32minfo[39m: New measurements found for "Sarajevo": 24 in 0.009s
+2019-10-08T12:50:35.942Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.216Z - [32minfo[39m: Fetch results for Australia - Tasmania
+2019-10-08T12:50:36.216Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.216Z - [32minfo[39m: New measurements found for "Australia - Tasmania": 0 in 0.001s
+2019-10-08T12:50:36.216Z - [32minfo[39m: 1 occurrences of Adapter error (source: Australia - Tasmania): Failure to load data url.
+2019-10-08T12:50:36.216Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.377Z - [32minfo[39m: Fetch results for Bosnia2
+2019-10-08T12:50:36.377Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.377Z - [32minfo[39m: New measurements found for "Bosnia2": 0 in 0s
+2019-10-08T12:50:36.377Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.396Z - [32minfo[39m: Fetch results for StateAir_Bogota
+2019-10-08T12:50:36.396Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.396Z - [32minfo[39m: New measurements found for "StateAir_Bogota": 24 in 0.006s
+2019-10-08T12:50:36.396Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.429Z - [32minfo[39m: Fetch results for StateAir_Addis_Ababa_School
+2019-10-08T12:50:36.429Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.429Z - [32minfo[39m: New measurements found for "StateAir_Addis_Ababa_School": 0 in 0.002s
+2019-10-08T12:50:36.430Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.503Z - [32minfo[39m: Fetch results for Beijing US Embassy
+2019-10-08T12:50:36.503Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.503Z - [32minfo[39m: New measurements found for "Beijing US Embassy": 24 in 0.01s
+2019-10-08T12:50:36.503Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.535Z - [32minfo[39m: Fetch results for Chengdu
+2019-10-08T12:50:36.535Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.535Z - [32minfo[39m: New measurements found for "Chengdu": 24 in 0.005s
+2019-10-08T12:50:36.536Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.554Z - [32minfo[39m: Fetch results for Shanghai
+2019-10-08T12:50:36.554Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.555Z - [32minfo[39m: New measurements found for "Shanghai": 24 in 0.009s
+2019-10-08T12:50:36.555Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.570Z - [32minfo[39m: Fetch results for Guangzhou
+2019-10-08T12:50:36.570Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.570Z - [32minfo[39m: New measurements found for "Guangzhou": 24 in 0.005s
+2019-10-08T12:50:36.570Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.589Z - [32minfo[39m: Fetch results for Shenyang
+2019-10-08T12:50:36.589Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.589Z - [32minfo[39m: New measurements found for "Shenyang": 24 in 0.006s
+2019-10-08T12:50:36.589Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.606Z - [32minfo[39m: Fetch results for StateAir_Algiers
+2019-10-08T12:50:36.606Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.606Z - [32minfo[39m: New measurements found for "StateAir_Algiers": 24 in 0.004s
+2019-10-08T12:50:36.606Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.625Z - [32minfo[39m: Fetch results for StateAir_Baghdad
+2019-10-08T12:50:36.625Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.625Z - [32minfo[39m: New measurements found for "StateAir_Baghdad": 0 in 0.001s
+2019-10-08T12:50:36.625Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.629Z - [32minfo[39m: Fetch results for StateAir_JakartaSouth
+2019-10-08T12:50:36.629Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.629Z - [32minfo[39m: New measurements found for "StateAir_JakartaSouth": 0 in 0.001s
+2019-10-08T12:50:36.629Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.632Z - [32minfo[39m: Fetch results for StateAir_JakartaCentral
+2019-10-08T12:50:36.632Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.633Z - [32minfo[39m: New measurements found for "StateAir_JakartaCentral": 0 in 0s
+2019-10-08T12:50:36.633Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.635Z - [32minfo[39m: Fetch results for StateAir_Chennai
+2019-10-08T12:50:36.635Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.635Z - [32minfo[39m: New measurements found for "StateAir_Chennai": 0 in 0s
+2019-10-08T12:50:36.635Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.637Z - [32minfo[39m: Fetch results for StateAir_Kolkata
+2019-10-08T12:50:36.637Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.637Z - [32minfo[39m: New measurements found for "StateAir_Kolkata": 0 in 0s
+2019-10-08T12:50:36.637Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.653Z - [32minfo[39m: Fetch results for StateAir_Bishkek
+2019-10-08T12:50:36.653Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.653Z - [32minfo[39m: New measurements found for "StateAir_Bishkek": 0 in 0s
+2019-10-08T12:50:36.653Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.656Z - [32minfo[39m: Fetch results for StateAir_Vientiane
+2019-10-08T12:50:36.656Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.656Z - [32minfo[39m: New measurements found for "StateAir_Vientiane": 0 in 0.001s
+2019-10-08T12:50:36.656Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.658Z - [32minfo[39m: Fetch results for StateAir_Colombo
+2019-10-08T12:50:36.658Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.658Z - [32minfo[39m: New measurements found for "StateAir_Colombo": 0 in 0.001s
+2019-10-08T12:50:36.658Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.660Z - [32minfo[39m: Fetch results for StateAir_Rangoon
+2019-10-08T12:50:36.660Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.661Z - [32minfo[39m: New measurements found for "StateAir_Rangoon": 0 in 0s
+2019-10-08T12:50:36.661Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.663Z - [32minfo[39m: Fetch results for StateAir_Ulaanbaatar
+2019-10-08T12:50:36.663Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.663Z - [32minfo[39m: New measurements found for "StateAir_Ulaanbaatar": 0 in 0.001s
+2019-10-08T12:50:36.663Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.926Z - [32minfo[39m: Fetch results for StateAir_Addis_Ababa_Central
+2019-10-08T12:50:36.926Z - [32minfo[39m: ///////
+2019-10-08T12:50:36.926Z - [32minfo[39m: New measurements found for "StateAir_Addis_Ababa_Central": 24 in 0.006s
+2019-10-08T12:50:36.926Z - [32minfo[39m: ///////
+2019-10-08T12:50:37.105Z - [32minfo[39m: Fetch results for StateAir_Hyderabad
+2019-10-08T12:50:37.106Z - [32minfo[39m: ///////
+2019-10-08T12:50:37.106Z - [32minfo[39m: New measurements found for "StateAir_Hyderabad": 0 in 0.001s
+2019-10-08T12:50:37.106Z - [32minfo[39m: ///////
+2019-10-08T12:50:37.126Z - [32minfo[39m: Fetch results for Arpae Emilia-Romagna
+2019-10-08T12:50:37.126Z - [32minfo[39m: ///////
+2019-10-08T12:50:37.126Z - [32minfo[39m: New measurements found for "Arpae Emilia-Romagna": 0 in 0.001s
+2019-10-08T12:50:37.126Z - [32minfo[39m: ///////
+2019-10-08T12:50:37.401Z - [32minfo[39m: Fetch results for StateAir_Curacao
+2019-10-08T12:50:37.401Z - [32minfo[39m: ///////
+2019-10-08T12:50:37.401Z - [32minfo[39m: New measurements found for "StateAir_Curacao": 24 in 0.006s
+2019-10-08T12:50:37.402Z - [32minfo[39m: ///////
+2019-10-08T12:50:37.449Z - [32minfo[39m: Fetch results for StateAir_PhoraDurbar
+2019-10-08T12:50:37.449Z - [32minfo[39m: ///////
+2019-10-08T12:50:37.449Z - [32minfo[39m: New measurements found for "StateAir_PhoraDurbar": 0 in 0.001s
+2019-10-08T12:50:37.449Z - [32minfo[39m: ///////
+2019-10-08T12:50:37.454Z - [32minfo[39m: Fetch results for StateAir_Kathmandu
+2019-10-08T12:50:37.454Z - [32minfo[39m: ///////
+2019-10-08T12:50:37.455Z - [32minfo[39m: New measurements found for "StateAir_Kathmandu": 0 in 0s
+2019-10-08T12:50:37.455Z - [32minfo[39m: ///////
+2019-10-08T12:50:37.458Z - [32minfo[39m: Fetch results for StateAir_Lima
+2019-10-08T12:50:37.458Z - [32minfo[39m: ///////
+2019-10-08T12:50:37.458Z - [32minfo[39m: New measurements found for "StateAir_Lima": 0 in 0s
+2019-10-08T12:50:37.458Z - [32minfo[39m: ///////
+2019-10-08T12:50:38.016Z - [32minfo[39m: Fetch results for DEFRA
+2019-10-08T12:50:38.016Z - [32minfo[39m: ///////
+2019-10-08T12:50:38.016Z - [32minfo[39m: New measurements found for "DEFRA": 386 in 0.148s
+2019-10-08T12:50:38.016Z - [32minfo[39m: 170 occurrences of Adapter error (source: DEFRA): Invalid time value
+2019-10-08T12:50:38.016Z - [32minfo[39m: 33 occurrences of instance requires property "city"
+2019-10-08T12:50:38.016Z - [32minfo[39m: ///////
+2019-10-08T12:50:38.033Z - [32minfo[39m: Fetch results for StateAir_Mumbai
+2019-10-08T12:50:38.033Z - [32minfo[39m: ///////
+2019-10-08T12:50:38.033Z - [32minfo[39m: New measurements found for "StateAir_Mumbai": 24 in 0.004s
+2019-10-08T12:50:38.033Z - [32minfo[39m: ///////
+2019-10-08T12:50:38.050Z - [32minfo[39m: Fetch results for StateAir_NewDelhi
+2019-10-08T12:50:38.050Z - [32minfo[39m: ///////
+2019-10-08T12:50:38.050Z - [32minfo[39m: New measurements found for "StateAir_NewDelhi": 24 in 0.004s
+2019-10-08T12:50:38.050Z - [32minfo[39m: ///////
+2019-10-08T12:50:38.121Z - [32minfo[39m: Fetch results for StateAir_KuwaitCity
+2019-10-08T12:50:38.121Z - [32minfo[39m: ///////
+2019-10-08T12:50:38.121Z - [32minfo[39m: New measurements found for "StateAir_KuwaitCity": 24 in 0.005s
+2019-10-08T12:50:38.122Z - [32minfo[39m: ///////
+2019-10-08T12:50:38.306Z - [32minfo[39m: Fetch results for StateAir_Astana
+2019-10-08T12:50:38.306Z - [32minfo[39m: ///////
+2019-10-08T12:50:38.306Z - [32minfo[39m: New measurements found for "StateAir_Astana": 0 in 0s
+2019-10-08T12:50:38.306Z - [32minfo[39m: ///////
+2019-10-08T12:50:38.533Z - [32minfo[39m: Fetch results for Hong Kong
+2019-10-08T12:50:38.533Z - [32minfo[39m: ///////
+2019-10-08T12:50:38.537Z - [32minfo[39m: New measurements found for "Hong Kong": 88 in 0.014s
+2019-10-08T12:50:38.537Z - [32minfo[39m: ///////
+2019-10-08T12:50:47.489Z - [32minfo[39m: Fetch results for StateAir_Islamabad
+2019-10-08T12:50:47.489Z - [32minfo[39m: ///////
+2019-10-08T12:50:47.489Z - [32minfo[39m: New measurements found for "StateAir_Islamabad": 24 in 0.007s
+2019-10-08T12:50:47.489Z - [32minfo[39m: ///////
+2019-10-08T12:50:47.491Z - [32minfo[39m: Fetch results for StateAir_Peshawar
+2019-10-08T12:50:47.491Z - [32minfo[39m: ///////
+2019-10-08T12:50:47.491Z - [32minfo[39m: New measurements found for "StateAir_Peshawar": 0 in 0s
+2019-10-08T12:50:47.491Z - [32minfo[39m: ///////
+2019-10-08T12:50:47.866Z - [32minfo[39m: Fetch results for StateAir_Lahore
+2019-10-08T12:50:47.866Z - [32minfo[39m: ///////
+2019-10-08T12:50:47.866Z - [32minfo[39m: New measurements found for "StateAir_Lahore": 0 in 0.001s
+2019-10-08T12:50:47.866Z - [32minfo[39m: ///////
+2019-10-08T12:50:47.985Z - [32minfo[39m: Fetch results for StateAir_Karachi
+2019-10-08T12:50:47.985Z - [32minfo[39m: ///////
+2019-10-08T12:50:47.985Z - [32minfo[39m: New measurements found for "StateAir_Karachi": 24 in 0.007s
+2019-10-08T12:50:47.985Z - [32minfo[39m: ///////
+2019-10-08T12:50:48.253Z - [32minfo[39m: Fetch results for Norway
+2019-10-08T12:50:48.253Z - [32minfo[39m: ///////
+2019-10-08T12:50:48.253Z - [32minfo[39m: New measurements found for "Norway": 150 in 0.036s
+2019-10-08T12:50:48.253Z - [32minfo[39m: ///////
+2019-10-08T12:50:48.534Z - [32minfo[39m: Fetch results for Slovenian Environment Agency
+2019-10-08T12:50:48.535Z - [32minfo[39m: ///////
+2019-10-08T12:50:48.535Z - [32minfo[39m: New measurements found for "Slovenian Environment Agency": 7 in 0.001s
+2019-10-08T12:50:48.535Z - [32minfo[39m: ///////
+2019-10-08T12:50:49.930Z - [32minfo[39m: Fetch results for Sweden
+2019-10-08T12:50:49.931Z - [32minfo[39m: ///////
+2019-10-08T12:50:49.931Z - [32minfo[39m: New measurements found for "Sweden": 0 in 0s
+2019-10-08T12:50:49.931Z - [32minfo[39m: ///////
+2019-10-08T12:50:50.336Z - [32minfo[39m: Fetch results for StateAir_Pristina
+2019-10-08T12:50:50.336Z - [32minfo[39m: ///////
+2019-10-08T12:50:50.336Z - [32minfo[39m: New measurements found for "StateAir_Pristina": 0 in 0.001s
+2019-10-08T12:50:50.336Z - [32minfo[39m: ///////
+2019-10-08T12:50:50.341Z - [32minfo[39m: Fetch results for Ho Chi Minh City
+2019-10-08T12:50:50.341Z - [32minfo[39m: ///////
+2019-10-08T12:50:50.341Z - [32minfo[39m: New measurements found for "Ho Chi Minh City": 0 in 0s
+2019-10-08T12:50:50.341Z - [32minfo[39m: ///////
+2019-10-08T12:50:50.366Z - [32minfo[39m: Fetch results for StateAir_Kampala
+2019-10-08T12:50:50.366Z - [32minfo[39m: ///////
+2019-10-08T12:50:50.366Z - [32minfo[39m: New measurements found for "StateAir_Kampala": 24 in 0.006s
+2019-10-08T12:50:50.366Z - [32minfo[39m: ///////
+2019-10-08T12:50:50.635Z - [32minfo[39m: Fetch results for StateAir_Tashkent
+2019-10-08T12:50:50.636Z - [32minfo[39m: ///////
+2019-10-08T12:50:50.636Z - [32minfo[39m: New measurements found for "StateAir_Tashkent": 24 in 0.004s
+2019-10-08T12:50:50.636Z - [32minfo[39m: ///////
+2019-10-08T12:50:52.335Z - [32minfo[39m: Fetch results for StateAir_Hanoi
+2019-10-08T12:50:52.335Z - [32minfo[39m: ///////
+2019-10-08T12:50:52.335Z - [32minfo[39m: New measurements found for "StateAir_Hanoi": 0 in 0s
+2019-10-08T12:50:52.335Z - [32minfo[39m: ///////
+2019-10-08T12:50:53.123Z - [32minfo[39m: Fetch results for Kosovo
+2019-10-08T12:50:53.123Z - [32minfo[39m: ///////
+2019-10-08T12:50:53.127Z - [32minfo[39m: New measurements found for "Kosovo": 34 in 0.006s
+2019-10-08T12:50:53.127Z - [32minfo[39m: ///////
+2019-10-08T12:50:53.274Z - [32minfo[39m: Fetch results for Thailand
+2019-10-08T12:50:53.274Z - [32minfo[39m: ///////
+2019-10-08T12:50:53.274Z - [32minfo[39m: New measurements found for "Thailand": 256 in 0.045s
+2019-10-08T12:50:53.274Z - [32minfo[39m: ///////
+2019-10-08T12:50:53.539Z - [32minfo[39m: Fetch results for Medellin
+2019-10-08T12:50:53.539Z - [32minfo[39m: ///////
+2019-10-08T12:50:53.539Z - [32minfo[39m: New measurements found for "Medellin": 1275 in 18.635s
+2019-10-08T12:50:53.539Z - [32minfo[39m: ///////
+2019-10-08T12:50:53.573Z - [32minfo[39m: Fetch results for Bosnia_Tuzlanski
+2019-10-08T12:50:53.573Z - [32minfo[39m: ///////
+2019-10-08T12:50:53.573Z - [32minfo[39m: New measurements found for "Bosnia_Tuzlanski": 10 in 0.002s
+2019-10-08T12:50:53.573Z - [32minfo[39m: ///////
+2019-10-08T12:50:54.026Z - [32minfo[39m: Fetch results for Senamhi
+2019-10-08T12:50:54.026Z - [32minfo[39m: ///////
+2019-10-08T12:50:54.027Z - [32minfo[39m: New measurements found for "Senamhi": 0 in 0.001s
+2019-10-08T12:50:54.027Z - [32minfo[39m: 1 occurrences of Adapter error (source: Senamhi)
+2019-10-08T12:50:54.027Z - [32minfo[39m: ///////
+2019-10-08T12:50:55.329Z - [32minfo[39m: Fetch results for EEA Andorra
+2019-10-08T12:50:55.329Z - [32minfo[39m: ///////
+2019-10-08T12:50:55.329Z - [32minfo[39m: New measurements found for "EEA Andorra": 7 in 20.426s
+2019-10-08T12:50:55.329Z - [32minfo[39m: ///////
+2019-10-08T12:50:56.439Z - [32minfo[39m: Fetch results for Australia - New South Wales
+2019-10-08T12:50:56.439Z - [32minfo[39m: ///////
+2019-10-08T12:50:56.439Z - [32minfo[39m: New measurements found for "Australia - New South Wales": 143 in 0.03s
+2019-10-08T12:50:56.439Z - [32minfo[39m: ///////
+2019-10-08T12:50:58.224Z - [32minfo[39m: Fetch results for Australia - Queensland
+2019-10-08T12:50:58.224Z - [32minfo[39m: ///////
+2019-10-08T12:50:58.228Z - [32minfo[39m: New measurements found for "Australia - Queensland": 0 in 0.001s
+2019-10-08T12:50:58.228Z - [32minfo[39m: 1 occurrences of Adapter error (source: Australia - Queensland)
+2019-10-08T12:50:58.228Z - [32minfo[39m: ///////
+2019-10-08T12:50:58.304Z - [32minfo[39m: Fetch results for EEA Gibraltar
+2019-10-08T12:50:58.304Z - [32minfo[39m: ///////
+2019-10-08T12:50:58.304Z - [32minfo[39m: New measurements found for "EEA Gibraltar": 0 in 23.399s
+2019-10-08T12:50:58.304Z - [32minfo[39m: ///////
+2019-10-08T12:50:58.457Z - [32minfo[39m: Fetch results for Sao Paulo
+2019-10-08T12:50:58.457Z - [32minfo[39m: ///////
+2019-10-08T12:50:58.457Z - [32minfo[39m: New measurements found for "Sao Paulo": 0 in 0s
+2019-10-08T12:50:58.457Z - [32minfo[39m: 1 occurrences of Adapter error (source: Sao Paulo): Failure to load data urls.
+2019-10-08T12:50:58.457Z - [32minfo[39m: ///////
+2019-10-08T12:51:00.909Z - [32minfo[39m: Fetch results for EEA Denmark
+2019-10-08T12:51:00.910Z - [32minfo[39m: ///////
+2019-10-08T12:51:00.910Z - [32minfo[39m: New measurements found for "EEA Denmark": 25 in 26.005s
+2019-10-08T12:51:00.910Z - [32minfo[39m: ///////
+2019-10-08T12:51:01.100Z - [32minfo[39m: Fetch results for EEA Luxemburg
+2019-10-08T12:51:01.100Z - [32minfo[39m: ///////
+2019-10-08T12:51:01.100Z - [32minfo[39m: New measurements found for "EEA Luxemburg": 25 in 26.193s
+2019-10-08T12:51:01.100Z - [32minfo[39m: ///////
+2019-10-08T12:51:01.640Z - [32minfo[39m: Fetch results for EEA Lithuania
+2019-10-08T12:51:01.640Z - [32minfo[39m: ///////
+2019-10-08T12:51:01.640Z - [32minfo[39m: New measurements found for "EEA Lithuania": 0 in 26.733s
+2019-10-08T12:51:01.640Z - [32minfo[39m: ///////
+2019-10-08T12:51:01.954Z - [32minfo[39m: Fetch results for EEA Croatia
+2019-10-08T12:51:01.954Z - [32minfo[39m: ///////
+2019-10-08T12:51:01.954Z - [32minfo[39m: New measurements found for "EEA Croatia": 39 in 27.049s
+2019-10-08T12:51:01.955Z - [32minfo[39m: ///////
+2019-10-08T12:51:02.114Z - [32minfo[39m: Fetch results for Taiwan
+2019-10-08T12:51:02.114Z - [32minfo[39m: ///////
+2019-10-08T12:51:02.114Z - [32minfo[39m: New measurements found for "Taiwan": 452 in 0.073s
+2019-10-08T12:51:02.114Z - [32minfo[39m: ///////
+2019-10-08T12:51:02.599Z - [32minfo[39m: Fetch results for EEA Ireland
+2019-10-08T12:51:02.599Z - [32minfo[39m: ///////
+2019-10-08T12:51:02.599Z - [32minfo[39m: New measurements found for "EEA Ireland": 84 in 27.693s
+2019-10-08T12:51:02.599Z - [32minfo[39m: ///////
+2019-10-08T12:51:05.997Z - [32minfo[39m: Fetch results for AirNow
+2019-10-08T12:51:05.997Z - [32minfo[39m: ///////
+2019-10-08T12:51:05.998Z - [32minfo[39m: New measurements found for "AirNow": 3078 in 31.091s
+2019-10-08T12:51:05.998Z - [32minfo[39m: 69 occurrences of Cannot find station
+2019-10-08T12:51:05.998Z - [32minfo[39m: 1 occurrences of instance.date.local does not match pattern "\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\+|-)\\d{2}:\\d{2}"
+2019-10-08T12:51:05.998Z - [32minfo[39m: 4 occurrences of instance.country does not meet minimum length of 2
+2019-10-08T12:51:05.998Z - [32minfo[39m: 1 occurrences of Cannot parse parameter undefined
+2019-10-08T12:51:05.998Z - [32minfo[39m: ///////
+2019-10-08T12:51:06.106Z - [32minfo[39m: Fetch results for EEA Hungary
+2019-10-08T12:51:06.106Z - [32minfo[39m: ///////
+2019-10-08T12:51:06.106Z - [32minfo[39m: New measurements found for "EEA Hungary": 209 in 31.201s
+2019-10-08T12:51:06.106Z - [32minfo[39m: ///////
+2019-10-08T12:51:06.646Z - [32minfo[39m: Fetch results for EEA Latvia
+2019-10-08T12:51:06.646Z - [32minfo[39m: ///////
+2019-10-08T12:51:06.646Z - [32minfo[39m: New measurements found for "EEA Latvia": 8 in 31.739s
+2019-10-08T12:51:06.646Z - [32minfo[39m: ///////
+2019-10-08T12:51:07.293Z - [32minfo[39m: Fetch results for Andalucia
+2019-10-08T12:51:07.293Z - [32minfo[39m: ///////
+2019-10-08T12:51:07.293Z - [32minfo[39m: New measurements found for "Andalucia": 0 in 0s
+2019-10-08T12:51:07.293Z - [32minfo[39m: ///////
+2019-10-08T12:51:07.455Z - [32minfo[39m: Fetch results for EEA Servia
+2019-10-08T12:51:07.456Z - [32minfo[39m: ///////
+2019-10-08T12:51:07.456Z - [32minfo[39m: New measurements found for "EEA Servia": 40 in 32.547s
+2019-10-08T12:51:07.456Z - [32minfo[39m: ///////
+2019-10-08T12:51:07.509Z - [32minfo[39m: Fetch results for EEA Malta
+2019-10-08T12:51:07.509Z - [32minfo[39m: ///////
+2019-10-08T12:51:07.509Z - [32minfo[39m: New measurements found for "EEA Malta": 0 in 32.6s
+2019-10-08T12:51:07.509Z - [32minfo[39m: ///////
+2019-10-08T12:51:07.702Z - [32minfo[39m: Fetch results for EEA Finland
+2019-10-08T12:51:07.702Z - [32minfo[39m: ///////
+2019-10-08T12:51:07.702Z - [32minfo[39m: New measurements found for "EEA Finland": 91 in 32.797s
+2019-10-08T12:51:07.702Z - [32minfo[39m: ///////
+2019-10-08T12:51:12.463Z - [32minfo[39m: Fetch results for Chile - SINCA
+2019-10-08T12:51:12.463Z - [32minfo[39m: ///////
+2019-10-08T12:51:12.463Z - [32minfo[39m: New measurements found for "Chile - SINCA": 237 in 0.038s
+2019-10-08T12:51:12.463Z - [32minfo[39m: ///////
+2019-10-08T12:51:12.781Z - [32minfo[39m: Fetch results for EEA Switzerland
+2019-10-08T12:51:12.781Z - [32minfo[39m: ///////
+2019-10-08T12:51:12.781Z - [32minfo[39m: New measurements found for "EEA Switzerland": 98 in 37.878s
+2019-10-08T12:51:12.781Z - [32minfo[39m: ///////
+2019-10-08T12:51:13.038Z - [32minfo[39m: Fetch results for EEA Macedonia
+2019-10-08T12:51:13.038Z - [32minfo[39m: ///////
+2019-10-08T12:51:13.038Z - [32minfo[39m: New measurements found for "EEA Macedonia": 61 in 38.131s
+2019-10-08T12:51:13.038Z - [32minfo[39m: ///////
+2019-10-08T12:51:15.330Z - [32minfo[39m: Fetch results for Tsag-Agaar.gov.mn
+2019-10-08T12:51:15.330Z - [32minfo[39m: ///////
+2019-10-08T12:51:15.331Z - [32minfo[39m: New measurements found for "Tsag-Agaar.gov.mn": 680 in 0.115s
+2019-10-08T12:51:15.331Z - [32minfo[39m: ///////
+2019-10-08T12:51:19.892Z - [32minfo[39m: Fetch results for EEA Slovakia
+2019-10-08T12:51:19.892Z - [32minfo[39m: ///////
+2019-10-08T12:51:19.892Z - [32minfo[39m: New measurements found for "EEA Slovakia": 119 in 44.984s
+2019-10-08T12:51:19.892Z - [32minfo[39m: ///////
+2019-10-08T12:51:21.139Z - [32minfo[39m: Fetch results for EEA Belgium
+2019-10-08T12:51:21.139Z - [32minfo[39m: ///////
+2019-10-08T12:51:21.139Z - [32minfo[39m: New measurements found for "EEA Belgium": 0 in 46.236s
+2019-10-08T12:51:21.139Z - [32minfo[39m: ///////
+2019-10-08T12:51:21.227Z - [32minfo[39m: Fetch results for EEA Portugal
+2019-10-08T12:51:21.227Z - [32minfo[39m: ///////
+2019-10-08T12:51:21.227Z - [32minfo[39m: New measurements found for "EEA Portugal": 247 in 46.319s
+2019-10-08T12:51:21.227Z - [32minfo[39m: ///////
+2019-10-08T12:51:22.000Z - [32minfo[39m: Fetch results for EEA Czech Republic
+2019-10-08T12:51:22.000Z - [32minfo[39m: ///////
+2019-10-08T12:51:22.000Z - [32minfo[39m: New measurements found for "EEA Czech Republic": 304 in 47.096s
+2019-10-08T12:51:22.000Z - [32minfo[39m: ///////
+2019-10-08T12:51:33.979Z - [32minfo[39m: Fetch results for Netherlands
+2019-10-08T12:51:33.979Z - [32minfo[39m: ///////
+2019-10-08T12:51:33.979Z - [32minfo[39m: New measurements found for "Netherlands": 261 in 0.043s
+2019-10-08T12:51:33.979Z - [32minfo[39m: ///////
+2019-10-08T12:51:39.567Z - [32minfo[39m: Fetch results for ARPALAZIO
+2019-10-08T12:51:39.568Z - [32minfo[39m: ///////
+2019-10-08T12:51:39.568Z - [32minfo[39m: New measurements found for "ARPALAZIO": 7659 in 64.661s
+2019-10-08T12:51:39.568Z - [32minfo[39m: ///////
+2019-10-08T12:51:48.188Z - [32minfo[39m: Fetch results for EEA France
+2019-10-08T12:51:48.188Z - [32minfo[39m: ///////
+2019-10-08T12:51:48.188Z - [32minfo[39m: New measurements found for "EEA France": 1274 in 73.283s
+2019-10-08T12:51:48.188Z - [32minfo[39m: ///////
+2019-10-08T12:51:52.477Z - [32minfo[39m: Fetch results for Turkey
+2019-10-08T12:51:52.477Z - [32minfo[39m: ///////
+2019-10-08T12:51:52.477Z - [32minfo[39m: New measurements found for "Turkey": 0 in 0.001s
+2019-10-08T12:51:52.477Z - [32minfo[39m: ///////
+2019-10-08T12:51:53.853Z - [32minfo[39m: Fetch results for EEA Spain
+2019-10-08T12:51:53.853Z - [32minfo[39m: ///////
+2019-10-08T12:51:53.854Z - [32minfo[39m: New measurements found for "EEA Spain": 6235 in 78.949s
+2019-10-08T12:51:53.854Z - [32minfo[39m: ///////
