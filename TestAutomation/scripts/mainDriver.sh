@@ -46,14 +46,6 @@ for file in testCases/*.txt; #for reading in contents
 		  # code if found
 	  else failCount=$((failCount+1))
 	fi
-#	sleep 1
-		
-		
-#	DIFF=$(diff oracle.txt greppedOutput.txt)
-#	if ["$DIFF" = NULL]
-#	then 
-#		echo "An error has occured."
-#	fi
 
    done # done for reading in the file
    echo $passCount tests passed
