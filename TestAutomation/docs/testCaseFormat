@@ -1,0 +1,25 @@
+The test cases should be written to test the criteria set by Openaq for their air quality data sources.
+From Openaq:
+Data Source Criteria
+
+This section lists the key criteria for air quality data aggregated onto the platform.
+
+(1) Data must be of one of these pollutant types: PM10, PM2.5, sulfur dioxide (SO2), carbon monoxide (CO), nitrogen dioxide (NO2), ozone (O3), and black carbon (BC).
+
+(2) Data must be from an official-level outdoor air quality source, as defined as data produced by a government entity or international organization. We do not, at this stage, include data from low-cost, temporary, and/or indoor sensors. 
+
+(3) Data must be ‘raw’ and reported in physical concentrations on their originating site. Data cannot be shared in an 'Air Quality Index' or equivalent (e.g. AQI, PSI, API) format.
+
+(4) Data must be at the ‘station-level,’ associable with geographic coordinates, not aggregated into a higher (e.g. city) level.
+
+(5) Data must be from measurements averaged between 10 minutes and 24 hours.
+
+
+Test cases are made with two parts:
+(1) A plain test test case file in the following format
+	Test number
+	Test case name
+	Oracle
+(2) A .json data file built from the template Team3/TestAutomation/testCaseFiles/template.json
+
+The test cases should seek to test the criteria listed above. For the first five test cases, the "parameter" field of a data source .json field are tested. Per the criteria, it should not be a valid data source unless the parameter is of the following types: PM10, PM2.5, SO2, CO, NO2, O3, or BC.

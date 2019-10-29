@@ -7,9 +7,7 @@ input="output.txt"
 while IFS= read -r line
 do
 	echo "$line"
-	echo "
-	"
-
+	echo "<br>"
 done < "$input"
 }
 
@@ -29,7 +27,7 @@ cat <<- _EOF_
   </title>
 </head>
 
-<body>  
+<body><b>Test Results</b><br><br>  
   
     $(readFile)
   

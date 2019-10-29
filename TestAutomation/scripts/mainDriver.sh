@@ -31,7 +31,7 @@ for file in testCases/*.txt; #for reading in contents
 	
 	command="node project/index.js -d -s "
 	command+="$jsonFile"
-	echo $command
+	#echo $command
 	$command > testOutput.txt
 	#output=(eval $command)
 	#echo $output
