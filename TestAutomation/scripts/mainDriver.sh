@@ -23,7 +23,7 @@ for file in testCases/*.txt; #for reading in contents
 	testNum=${arr[0]}
 	jsonFile=${arr[1]}
 	oracle=${arr[2]}
-	echo $testNum
+	echo "Test Number: " $testNum
 	echo $jsonFile
 	#echo $oracle > oracle.txt
 	#name="$jsonFile"
