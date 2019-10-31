@@ -10,7 +10,7 @@ cd ..
 
 for file in testCases/*.txt; #for reading in contents 
     do
-    echo "Running: $file"
+    #echo "Running: $file"
     i=0
         while IFS= read -r testFile;  #change when get testCases
         # while to assign content to variables
@@ -23,8 +23,14 @@ for file in testCases/*.txt; #for reading in contents
 	testNum=${arr[0]}
 	jsonFile=${arr[1]}
 	oracle=${arr[2]}
-	echo "Test Number: " $testNum
-	echo $jsonFile
+	input=${arr[3]}
+	requirement=${arr[4]}
+	echo "<tr>"
+	echo "<td>"$testNum"</td>"
+	echo "<td>"$jsonFile"</td>"
+	echo "<td>"$requirement"</td>"
+	echo "<td>"$input"</td>"
+	echo "<td>"$oracle"</td>"
 	#echo $oracle > oracle.txt
 	#name="$jsonFile"
 	#echo $name
@@ -41,12 +47,13 @@ for file in testCases/*.txt; #for reading in contents
 	#myCount=grep -c "$oracle" testOutput.txt
 	if grep -F "$oracle" oracle.txt
 		then
-		  echo passed
+		  echo "<td>passed</td></tr>"
 		  passCount=$((passCount+1))
 		  # code if found
-	  else failCount=$((failCount+1))
+	  else echo "<td>failed</td></tr>"
+		  failCount=$((failCount+1))
 	fi
 
    done # done for reading in the file
-   echo $passCount tests passed
-   echo $failCount tests failed
+#   echo $passCount tests passed
+#   echo $failCount tests failed
