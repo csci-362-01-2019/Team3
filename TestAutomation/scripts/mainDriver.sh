@@ -45,7 +45,7 @@ for file in testCases/*.txt; #for reading in contents
 	#echo $oracle
 	# Grepping
 	#myCount=grep -c "$oracle" testOutput.txt
-	if grep -F "$oracle" oracle.txt
+	if grep -q -F "$oracle" oracle.txt
 		then
 		  echo "<td>passed</td></tr>"
 		  passCount=$((passCount+1))

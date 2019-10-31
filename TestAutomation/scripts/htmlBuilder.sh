@@ -7,7 +7,7 @@ input="output.txt"
 while IFS= read -r line
 do
 	echo "$line"
-	echo "<br>"
+	#echo "<br>"
 done < "$input"
 }
 

@@ -4,7 +4,6 @@
 <td>Data must be of one of these pollutant types: PM10, PM2.5, sulfur dioxide (SO2), carbon monoxide (CO), nitrogen dioxide (NO2), ozone (O3), and black carbon (BC).</td>
 <td>Set the parameter field to "ppq"</td>
 <td>1 occurrences of instance.unit is not one of enum values: µg/m³,ppm</td>
-1 occurrences of instance.unit is not one of enum values: µg/m³,ppm
 <td>passed</td></tr>
 <tr>
 <td>2</td>
@@ -12,7 +11,6 @@
 <td></td>
 <td></td>
 <td>1 occurrences of instance.unit is not one of enum values: µg/m³,ppm</td>
-1 occurrences of instance.unit is not one of enum values: µg/m³,ppm
 <td>passed</td></tr>
 <tr>
 <td>3</td>
@@ -20,7 +18,6 @@
 <td></td>
 <td></td>
 <td>1 occurrences of instance.unit is not one of enum values: µg/m³,ppm</td>
-1 occurrences of instance.unit is not one of enum values: µg/m³,ppm
 <td>passed</td></tr>
 <tr>
 <td>4</td>
@@ -28,7 +25,6 @@
 <td></td>
 <td></td>
 <td>1 occurrences of instance.unit is not one of enum values: µg/m³,ppm</td>
-1 occurrences of instance.unit is not one of enum values: µg/m³,ppm
 <td>passed</td></tr>
 <tr>
 <td>5</td>
@@ -36,5 +32,4 @@
 <td></td>
 <td></td>
 <td>1 occurrences of instance.unit is not one of enum values: µg/m³,ppm</td>
-1 occurrences of instance.unit is not one of enum values: µg/m³,ppm
 <td>passed</td></tr>
