@@ -1,12 +1,12 @@
-2019-11-05T14:25:11.278Z - [32minfo[39m: --- Dry run for Testing, nothing is saved to the database. ---
-2019-11-05T14:25:11.299Z - [32minfo[39m: Looking up source test5
-2019-11-05T14:25:11.356Z - [32minfo[39m: Getting stream for "test5" from "Dummy"
-2019-11-05T14:25:11.368Z - [32minfo[39m: Fetch results for test5
-2019-11-05T14:25:11.369Z - [32minfo[39m: ///////
-2019-11-05T14:25:11.369Z - [32minfo[39m: New measurements found for "test5": 1 in 0.01s
-2019-11-05T14:25:11.369Z - [32minfo[39m: 1 occurrences of instance.unit is not one of enum values: µg/m³,ppm
-2019-11-05T14:25:11.369Z - [32minfo[39m: 1 occurrences of instance.coordinates requires property "longitude"
-2019-11-05T14:25:11.369Z - [32minfo[39m: 1 occurrences of instance.coordinates additionalProperty "longitud" exists in instance when not allowed
-2019-11-05T14:25:11.369Z - [32minfo[39m: ///////
-2019-11-05T14:25:11.370Z - [32minfo[39m:  itemsInserted=1, timeStarted=1572963911283, results=[message=[Dry Run] New measurements found for test5: 1, instance.unit is not one of enum values: µg/m³,ppm=1, instance.coordinates requires property "longitude"=1, instance.coordinates additionalProperty "longitud" exists in instance when not allowed=1, count=1, duration=0.01, sourceName=test5], instance.unit is not one of enum values: µg/m³,ppm=1, instance.coordinates requires property "longitude"=1, instance.coordinates additionalProperty "longitud" exists in instance when not allowed=1, timeEnded=1572963911370
-2019-11-05T14:25:11.370Z - [32minfo[39m: Dry run ended.
+2019-11-05T14:30:19.520Z - [32minfo[39m: --- Dry run for Testing, nothing is saved to the database. ---
+2019-11-05T14:30:19.540Z - [32minfo[39m: Looking up source test5
+2019-11-05T14:30:19.599Z - [32minfo[39m: Getting stream for "test5" from "Dummy"
+2019-11-05T14:30:19.611Z - [32minfo[39m: Fetch results for test5
+2019-11-05T14:30:19.611Z - [32minfo[39m: ///////
+2019-11-05T14:30:19.611Z - [32minfo[39m: New measurements found for "test5": 1 in 0.01s
+2019-11-05T14:30:19.611Z - [32minfo[39m: 1 occurrences of instance.unit is not one of enum values: µg/m³,ppm
+2019-11-05T14:30:19.611Z - [32minfo[39m: 1 occurrences of instance.coordinates requires property "longitude"
+2019-11-05T14:30:19.612Z - [32minfo[39m: 1 occurrences of instance.coordinates additionalProperty "longitud" exists in instance when not allowed
+2019-11-05T14:30:19.612Z - [32minfo[39m: ///////
+2019-11-05T14:30:19.612Z - [32minfo[39m:  itemsInserted=1, timeStarted=1572964219521, results=[message=[Dry Run] New measurements found for test5: 1, instance.unit is not one of enum values: µg/m³,ppm=1, instance.coordinates requires property "longitude"=1, instance.coordinates additionalProperty "longitud" exists in instance when not allowed=1, count=1, duration=0.01, sourceName=test5], instance.unit is not one of enum values: µg/m³,ppm=1, instance.coordinates requires property "longitude"=1, instance.coordinates additionalProperty "longitud" exists in instance when not allowed=1, timeEnded=1572964219612
+2019-11-05T14:30:19.613Z - [32minfo[39m: Dry run ended.

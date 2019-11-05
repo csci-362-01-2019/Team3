@@ -1,0 +1,7 @@
+17
+test17
+instance.coordinates.latitude must have a minimum value of -90=1, instance.coordinates.longitude must have a maximum value of 180=1
+latitude set to '-100', longitude set to '190'
+Latitude can only range from 0 to +-90 degrees, Longitude ranges from -180 to 180
+
+

@@ -1,0 +1,7 @@
+16
+test16
+instance.coordinates.latitude must have a minimum value of -90
+latitude set to '-100'
+Latitude can only range from 0 to +-90 degrees
+
+
