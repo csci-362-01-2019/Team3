@@ -6,7 +6,7 @@ arr=()
 passCount=0
 failCount=0
 
-cd ..
+#cd ..
 
 for file in testCases/*.txt; #for reading in contents 
     do
