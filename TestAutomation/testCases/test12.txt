@@ -1,3 +1,5 @@
 12
 test12
 instance.coordinates requires property "longitude"
+Coordinates contains "longitud" instead of "longitude"
+Coordinates require latitude and longitude.

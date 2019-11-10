@@ -1,0 +1,7 @@
+25
+test25
+itemsInserted=2
+longitude set to '-0', latitude set to '-0'
+Longitude and latitude should be able to set to 0
+
+

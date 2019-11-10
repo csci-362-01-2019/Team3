@@ -1,0 +1,5 @@
+22
+test22
+itemsInserted=2
+latitude set to '-0'
+Latitude can only range from 0 to +-90 degrees, including 0

@@ -1,3 +1,5 @@
 8
 test8
 1 occurrences of instance.parameter is not one of enum values: pm25,pm10,no2,so2,o3,co,bc
+Set the parameter field to "ppm"
+Parameter field must be set to one of the following: pm25, pm10, no2, so2, o3, co, bc.

@@ -1,5 +1,5 @@
 1
 test1
 1 occurrences of instance.unit is not one of enum values: µg/m³,ppm
-Set the parameter field to "ppq"
+Set the unit field to "ppq"
 Data must be of one of these pollutant types: PM10, PM2.5, sulfur dioxide (SO2), carbon monoxide (CO), nitrogen dioxide (NO2), ozone (O3), and black carbon (BC).
