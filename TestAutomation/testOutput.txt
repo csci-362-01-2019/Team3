@@ -1,10 +1,10 @@
-2019-11-10T22:27:28.055Z - [32minfo[39m: --- Dry run for Testing, nothing is saved to the database. ---
-2019-11-10T22:27:28.077Z - [32minfo[39m: Looking up source test9
-2019-11-10T22:27:28.136Z - [32minfo[39m: Getting stream for "test9" from "Dummy"
-2019-11-10T22:27:28.148Z - [32minfo[39m: Fetch results for test9
-2019-11-10T22:27:28.149Z - [32minfo[39m: ///////
-2019-11-10T22:27:28.149Z - [32minfo[39m: New measurements found for "test9": 3 in 0.01s
-2019-11-10T22:27:28.149Z - [32minfo[39m: 1 occurrences of instance.parameter is not one of enum values: pm25,pm10,no2,so2,o3,co,bc
-2019-11-10T22:27:28.149Z - [32minfo[39m: ///////
-2019-11-10T22:27:28.150Z - [32minfo[39m:  itemsInserted=3, timeStarted=1573424848057, results=[message=[Dry Run] New measurements found for test9: 3, instance.parameter is not one of enum values: pm25,pm10,no2,so2,o3,co,bc=1, count=3, duration=0.01, sourceName=test9], instance.parameter is not one of enum values: pm25,pm10,no2,so2,o3,co,bc=1, timeEnded=1573424848150
-2019-11-10T22:27:28.150Z - [32minfo[39m: Dry run ended.
+2019-11-12T01:10:04.235Z - [32minfo[39m: --- Dry run for Testing, nothing is saved to the database. ---
+2019-11-12T01:10:04.262Z - [32minfo[39m: Looking up source test9
+2019-11-12T01:10:04.329Z - [32minfo[39m: Getting stream for "test9" from "Dummy"
+2019-11-12T01:10:04.348Z - [32minfo[39m: Fetch results for test9
+2019-11-12T01:10:04.348Z - [32minfo[39m: ///////
+2019-11-12T01:10:04.348Z - [32minfo[39m: New measurements found for "test9": 3 in 0.014s
+2019-11-12T01:10:04.348Z - [32minfo[39m: 1 occurrences of instance.parameter is not one of enum values: pm25,pm10,no2,so2,o3,co,bc
+2019-11-12T01:10:04.349Z - [32minfo[39m: ///////
+2019-11-12T01:10:04.349Z - [32minfo[39m:  itemsInserted=3, timeStarted=1573521004241, results=[message=[Dry Run] New measurements found for test9: 3, instance.parameter is not one of enum values: pm25,pm10,no2,so2,o3,co,bc=1, count=3, duration=0.014, sourceName=test9], instance.parameter is not one of enum values: pm25,pm10,no2,so2,o3,co,bc=1, timeEnded=1573521004349
+2019-11-12T01:10:04.350Z - [32minfo[39m: Dry run ended.

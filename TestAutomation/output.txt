@@ -1,73 +1,74 @@
+Running tests, please wait.
 <tr>
 <td>10</td>
 <td>test10</td>
 <td>Parameter field must be set to one of the following: pm25, pm10, no2, so2, o3, co, bc.</td>
 <td>Missing parameter field.</td>
 <td>1 occurrences of instance.parameter is not one of enum values: pm25,pm10,no2,so2,o3,co,bc</td>
-<td>failed</td></tr>
+<td>passed</td></tr>
 <tr>
 <td>11</td>
 <td>test11</td>
 <td>Coordinates require latitude and longitude.</td>
 <td>Missing longitude</td>
 <td>instance.coordinates requires property "longitude"</td>
-<td>failed</td></tr>
+<td>passed</td></tr>
 <tr>
 <td>12</td>
 <td>test12</td>
 <td>Coordinates require latitude and longitude.</td>
 <td>Coordinates contains "longitud" instead of "longitude"</td>
 <td>instance.coordinates requires property "longitude"</td>
-<td>failed</td></tr>
+<td>passed</td></tr>
 <tr>
 <td>13</td>
 <td>test13</td>
 <td>Coordinates require latitude and longitude.</td>
 <td>Longitude set to ""</td>
 <td>instance.coordinates requires property "longitude"</td>
-<td>failed</td></tr>
+<td>passed</td></tr>
 <tr>
 <td>14</td>
 <td>test14</td>
 <td>Coordinates require latitude and longitude.</td>
 <td>Longitude set to ""</td>
 <td>instance.coordinates requires property "longitude"</td>
-<td>failed</td></tr>
+<td>passed</td></tr>
 <tr>
 <td>15</td>
 <td>test15</td>
 <td>Coordinates require latitude and longitude.</td>
 <td>Longitude and latitude properties set to ""</td>
 <td>instance.coordinates requires property "longitude"</td>
-<td>failed</td></tr>
+<td>passed</td></tr>
 <tr>
 <td>16</td>
 <td>test16</td>
 <td>Latitude can only range from 0 to +-90 degrees</td>
 <td>latitude set to '-100'</td>
 <td>instance.coordinates.latitude must have a minimum value of -90</td>
-<td>failed</td></tr>
+<td>passed</td></tr>
 <tr>
 <td>17</td>
 <td>test17</td>
 <td>Latitude can only range from 0 to +-90 degrees</td>
 <td>latitude set to '100'</td>
 <td>instance.coordinates.latitude must have a minimum value of -90=1, instance.coordinates.longitude must have a maximum value of 180=1</td>
-<td>failed</td></tr>
+<td>passed</td></tr>
 <tr>
 <td>18</td>
 <td>test18</td>
 <td>Longitude ranges from -180 to 180</td>
 <td>longitude set to '190'</td>
 <td>instance.coordinates.longitude must have a maximum value of 180=1</td>
-<td>failed</td></tr>
+<td>passed</td></tr>
 <tr>
 <td>19</td>
 <td>test19</td>
 <td>Longitude ranges from -180 to 180</td>
 <td>longitude set to '360'</td>
 <td>instance.coordinates.longitude must have a maximum value of 180=1</td>
-<td>failed</td></tr>
+<td>passed</td></tr>
 <tr>
 <td>1</td>
 <td>test1</td>
@@ -81,42 +82,42 @@
 <td>Latitude can only range from 0 to +-90 degrees, Longitude ranges from -180 to 180</td>
 <td>latitude set to '-100', longitude set to '200'</td>
 <td>instance.coordinates.latitude must have a minimum value of -90=1, instance.coordinates.longitude must have a maximum value of 180=1</td>
-<td>failed</td></tr>
+<td>passed</td></tr>
 <tr>
 <td>21</td>
 <td>test21</td>
 <td>Latitude can only range from 0 to +-90 degrees, including 0</td>
 <td>latitude set to '0'</td>
 <td>itemsInserted=2</td>
-<td>failed</td></tr>
+<td>passed</td></tr>
 <tr>
 <td>22</td>
 <td>test22</td>
 <td>Latitude can only range from 0 to +-90 degrees, including 0</td>
 <td>latitude set to '-0'</td>
 <td>itemsInserted=2</td>
-<td>failed</td></tr>
+<td>passed</td></tr>
 <tr>
 <td>23</td>
 <td>test23</td>
 <td>Longitude can only range from 0 to +-180 degrees, including 0</td>
 <td>longitude set to '0'</td>
 <td>itemsInserted=2</td>
-<td>failed</td></tr>
+<td>passed</td></tr>
 <tr>
 <td>24</td>
 <td>test24</td>
 <td>Longitude can only range from 0 to +-180 degrees, including 0</td>
 <td>longitude set to '-0'</td>
 <td>itemsInserted=2</td>
-<td>failed</td></tr>
+<td>passed</td></tr>
 <tr>
 <td>25</td>
 <td>test25</td>
 <td>Longitude and latitude should be able to set to 0</td>
 <td>longitude set to '-0', latitude set to '-0'</td>
 <td>itemsInserted=2</td>
-<td>failed</td></tr>
+<td>passed</td></tr>
 <tr>
 <td>2</td>
 <td>test2</td>
@@ -151,25 +152,25 @@
 <td>Parameter field must be set to one of the following: pm25, pm10, no2, so2, o3, co, bc.</td>
 <td>Set the parameter field to "pm"</td>
 <td>1 occurrences of instance.parameter is not one of enum values: pm25,pm10,no2,so2,o3,co,bc</td>
-<td>failed</td></tr>
+<td>passed</td></tr>
 <tr>
 <td>7</td>
 <td>test7</td>
 <td>Parameter field must be set to one of the following: pm25, pm10, no2, so2, o3, co, bc.</td>
 <td>Set the parameter field to ""</td>
 <td>1 occurrences of instance.parameter is not one of enum values: pm25,pm10,no2,so2,o3,co,bc</td>
-<td>failed</td></tr>
+<td>passed</td></tr>
 <tr>
 <td>8</td>
 <td>test8</td>
 <td>Parameter field must be set to one of the following: pm25, pm10, no2, so2, o3, co, bc.</td>
 <td>Set the parameter field to "ppm"</td>
 <td>1 occurrences of instance.parameter is not one of enum values: pm25,pm10,no2,so2,o3,co,bc</td>
-<td>failed</td></tr>
+<td>passed</td></tr>
 <tr>
 <td>9</td>
 <td>test9</td>
 <td>Parameter field must be set to one of the following: pm25, pm10, no2, so2, o3, co, bc.</td>
 <td>Set the parameter field to "pm20"</td>
 <td>1 occurrences of instance.parameter is not one of enum values: pm25,pm10,no2,so2,o3,co,bc</td>
-<td>failed</td></tr>
+<td>passed</td></tr>

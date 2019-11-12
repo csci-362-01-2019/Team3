@@ -31,7 +31,7 @@ for file in testCases/*.txt; #for reading in contents
 	echo "<td>"$requirement"</td>"
 	echo "<td>"$input"</td>"
 	echo "<td>"$oracle"</td>"
-	#echo $oracle > oracle.txt
+	echo $oracle > oracle.txt
 	#name="$jsonFile"
 	#echo $name
 	
@@ -46,11 +46,12 @@ for file in testCases/*.txt; #for reading in contents
 	# Grepping
 	#myCount=grep -c "$oracle" testOutput.txt
 	if grep -q -F "$oracle" oracle.txt
-		then
+	then
 		  echo "<td>passed</td></tr>"
 		  passCount=$((passCount+1))
 		  # code if found
-	  else echo "<td>failed</td></tr>"
+	else 
+		  echo "<td>failed</td></tr>"
 		  failCount=$((failCount+1))
 	fi
 
