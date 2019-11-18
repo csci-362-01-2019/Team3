@@ -1,5 +1,5 @@
 19
 test19
 instance.coordinates.longitude must have a maximum value of 180=1
-longitude set to '360'
+{"parameter": "pm25", "unit": "ppm", "value": 14, "date": {"local": "2016-01-24T19:00:04+00:00"}, "coordinates": {"latitude": -250, "longitude": 360}}
 Longitude ranges from -180 to 180

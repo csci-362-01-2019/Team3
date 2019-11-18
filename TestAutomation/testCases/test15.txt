@@ -1,5 +1,5 @@
 15
 test15
 instance.coordinates requires property "longitude"
-Longitude and latitude properties set to ""
+{"parameter": "pm25", "unit": "ppm", "value": 10, "date": {"local": "2016-01-24T19:00:00+00:00"}, "coordinates": {"longitude": 34, "latitude": -20}}
 Coordinates require latitude and longitude.

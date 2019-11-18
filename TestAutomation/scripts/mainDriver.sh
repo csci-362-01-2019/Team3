@@ -34,9 +34,36 @@ for file in testCases/*.txt; #for reading in contents
 	echo $oracle > oracle.txt
 	#name="$jsonFile"
 	#echo $name
+	#cd ..
+	echo "
+[
+  {
+    \"url\": \"https://www.openaq.org/\",
+    \"adapter\": \"dummy\",
+    \"name\": \"test\",
+    \"location\": \"Test\",
+    \"city\": \"Test\",
+    \"country\": \"TS\",
+    \"description\": \"Test\",
+    \"sourceURL\": \"https://www.openaq.org/\",
+    \"contacts\": [\"info@openaq.org\"],
+    \"active\": false,
+    \"data\": [
+"$input"
+    ],
+    \"mobile\": false,
+    \"sourceType\": \"government\",
+    \"attribution\": [{\"name\": \"test\", \"url\": \"http://foo.com\"}],
+    \"averagingPeriod\": {\"value\": 1, \"unit\": \"hours\"}
+  }
+]" > project/sources/test1.json
 	
+
+	
+	#This builds the terminal command to run the specified file	
 	command="node project/index.js -d -s "
-	command+="$jsonFile"
+	command+="test"
+	#command+="$jsonFile"
 	#echo $command
 	$command > testOutput.txt
 	#output=(eval $command)

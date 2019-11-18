@@ -1,5 +1,5 @@
 11
 test11
 instance.coordinates requires property "longitude"
-Missing longitude
+{"parameter": "pm25", "unit": "ppm", "value": 10, "date": {"local": "2016-01-24T19:00:02+00:00"}, "coordinates": {"latitude": -20}}
 Coordinates require latitude and longitude.

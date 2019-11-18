@@ -1,5 +1,5 @@
 20
 test20
 instance.coordinates.latitude must have a minimum value of -90=1, instance.coordinates.longitude must have a maximum value of 180=1
-latitude set to '-100', longitude set to '200'
+{"parameter": "pm25", "unit": "ppm", "value": 15, "date": {"local": "2016-01-24T19:00:05+00:00"}, "coordinates": {"latitude": 100, "longitude": 200}}
 Latitude can only range from 0 to +-90 degrees, Longitude ranges from -180 to 180
