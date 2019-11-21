@@ -179,4 +179,4 @@
 <td>Parameter field must be set to one of the following: pm25, pm10, no2, so2, o3, co, bc.</td>
 <td>{"parameter": "pm20", "unit": "ppm", "value": 16, "date": {"local": "2016-01-24T19:00:06+00:00"}, "coordinates": {"latitude": -20, "longitude": 34}}</td>
 <td>1 occurrences of instance.parameter is not one of enum values: pm25,pm10,no2,so2,o3,co,bc</td>
-<td>failed</td></tr>
+<td>passed</td></tr>
