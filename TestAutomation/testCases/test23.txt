@@ -1,6 +1,6 @@
 23
 test23
-itemsInserted=2
+New measurements found for test: 1
 {"parameter": "pm25", "unit": "ppm", "value": 15, "date": {"local": "2016-01-24T11:00:06+06:00"}, "coordinates": {"latitude": -20, "longitude": 0}}
 Longitude can only range from 0 to +-180 degrees, including 0
 

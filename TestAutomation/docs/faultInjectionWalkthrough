@@ -1,0 +1,55 @@
+Code fault injection.
+Inside the TestAutomation/project/lib folder is the measurement-schema.json file which contains all the required fields needed for a sensor's data. We'll be creating faults in the code in this file and attempt to predict the effects on testing.
+1) Changing minimum latitude allowed from -90 to 0.
+Done by changing Ln 57 of measurement-schema.json 
+from:
+	"minimum": -90,
+to:
+	"minimum": 0,
+
+Expectation: This should cause all test cases with a negative latitude to fail.
+
+Results: Only test cases that were made for latitude testing were affected. Notably test 16 and 17, which failed since the oracle is now incorrect. The oracle for these two was looking for the error message "instance.coordinates.latitude must have a minimum value of -90", but the program now throws "instance.coordinates.latitude must have a minimum value of 0".
+
+2) Changing latitude maximum to 0. Expecting it to cause failures for tests that were testing the upper bound of the latitude field.
+Done by changing Ln 58 of measurement-schema.json 
+from : 
+	"maximum": 90
+to :
+	"maximum": 0
+
+Expectation: This should affect any test cases that dealt with latitude, causing them to fail.
+
+Results: No test cases were affected. This is due to not having any test cases with oracles that search for latitude errors.
+
+3) Changing longitude minimum to 0. This is done by changing Ln 62 of measurement-schema.json from: 
+	"minimum": -180
+to: 	
+	"minimum": 0
+
+Expectation: This this make any test cases with longitude inputs that are < 0.
+
+Results: Test 20 went from passing to failing, since it was expecting the longitude minimum to be -180, not 0. Other tests were unaffected. Even ones with negative longitude still passed, since the oracle each test case is looking for is still found in the report. 
+
+4) Changing maximum longitude to 0. This is done by changing Ln 63 of measurement-schema.json 
+from:
+	"maximum": 180
+to:
+	"maximum": 0
+
+Expectation: Similarly to other tests, any test case whose oracle is looking for a longitude high out of range will fail. The rest should still pass.
+
+Results: Tests 15, 17, 18, 19, 21, and 22 failed. All but 21 and 22 were based on the longitude parameter. 21 and 22 failed because they both contain positive longitudes, and the oracle for each expects no error messages.
+
+5) Adding "pm20", a phony parameter, to the lists of accepted parameters. 
+This is done by changing Ln 12 in measurement-schema.json
+from: 
+	"enum": ["pm25", "pm10", "no2", "so2", "o3", "co", "bc"]
+to:
+        "enum": ["pm25", "pm10", "no2", "so2", "o3", "co", "bc", "pm20"]
+
+Expectation: This should only affect test case 9, which should now fail. Test case 9 is expecting an error due to using the phony "pm20" as a parameter.
+
+Results: Test case 9 is the only test case that failed. Just as expected!
+
+Lessons learned: A lot of the code faults did not affect many test cases. This is due to how the test cases are written. They are looking for the specific error that matches their oracle, which will show up in the report along with any new errors, so they still pass. With more specific oracles, the test results would be more likely to change from a pass to a fail. 

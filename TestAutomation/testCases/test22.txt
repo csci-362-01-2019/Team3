@@ -1,5 +1,5 @@
 22
 test22
-itemsInserted=2
+New measurements found for test: 1
 {"parameter": "pm25", "unit": "ppm", "value": 15, "date": {"local": "2016-01-24T11:00:06+06:00"}, "coordinates": {"latitude": -0, "longitude": 34}}
 Latitude can only range from 0 to +-90 degrees, including 0

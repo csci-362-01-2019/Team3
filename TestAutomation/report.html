@@ -27,182 +27,188 @@ tr:nth-child(even) {
 <th>Oracle</th>
 <th>Result</th>
 </tr>
-    Running tests, please wait.
-<tr>
+    <tr>
 <td>10</td>
 <td>test10</td>
 <td>Parameter field must be set to one of the following: pm25, pm10, no2, so2, o3, co, bc.</td>
-<td>Missing parameter field.</td>
-<td>1 occurrences of instance.parameter is not one of enum values: pm25,pm10,no2,so2,o3,co,bc</td>
+<td>{"unit": "ppm", "value": 16, "date": {"local": "2016-01-24T19:00:06+00:00"}, "coordinates": {"latitude": -20, "longitude": 34}}</td>
+<td>1 occurrences of instance requires property "parameter"</td>
 <td>passed</td></tr>
 <tr>
 <td>11</td>
 <td>test11</td>
 <td>Coordinates require latitude and longitude.</td>
-<td>Missing longitude</td>
+<td>{"parameter": "pm25", "unit": "ppm", "value": 10, "date": {"local": "2016-01-24T19:00:02+00:00"}, "coordinates": {"latitude": -20}}</td>
 <td>instance.coordinates requires property "longitude"</td>
 <td>passed</td></tr>
 <tr>
 <td>12</td>
 <td>test12</td>
 <td>Coordinates require latitude and longitude.</td>
-<td>Coordinates contains "longitud" instead of "longitude"</td>
+<td>{"parameter": "pm25", "unit": "ppm", "value": 10, "date": {"local": "2016-01-24T19:00:02+00:00"}, "coordinates": {"latitude": -20, "longitud": 28}}</td>
 <td>instance.coordinates requires property "longitude"</td>
 <td>passed</td></tr>
 <tr>
 <td>13</td>
 <td>test13</td>
 <td>Coordinates require latitude and longitude.</td>
-<td>Longitude set to ""</td>
+<td>{"parameter": "pm25", "unit": "ppm", "value": 10, "date": {"local": "2016-01-24T19:00:02+00:00"}, "coordinates": {"latitude": -20, "": 27}}</td>
 <td>instance.coordinates requires property "longitude"</td>
 <td>passed</td></tr>
 <tr>
 <td>14</td>
 <td>test14</td>
 <td>Coordinates require latitude and longitude.</td>
-<td>Longitude set to ""</td>
+<td>{"parameter": "pm25", "unit": "ppm", "value": 10, "date": {"local": "2016-01-24T19:00:02+00:00"}, "coordinates": {"latitude": -20, "": 10}}</td>
 <td>instance.coordinates requires property "longitude"</td>
 <td>passed</td></tr>
 <tr>
 <td>15</td>
 <td>test15</td>
 <td>Coordinates require latitude and longitude.</td>
-<td>Longitude and latitude properties set to ""</td>
+<td>{"parameter": "pm25", "unit": "ppm", "value": 10, "date": {"local": "2016-01-24T19:00:00+00:00"}, "coordinates": {"longitude": 34, "latitude": -20}}</td>
 <td>instance.coordinates requires property "longitude"</td>
-<td>passed</td></tr>
+<td>failed</td></tr>
 <tr>
 <td>16</td>
 <td>test16</td>
 <td>Latitude can only range from 0 to +-90 degrees</td>
-<td>latitude set to '-100'</td>
+<td>{"parameter": "pm25", "unit": "ppm", "value": 14, "date": {"local": "2016-01-24T19:00:04+00:00"}, "coordinates": {"latitude": -100, "longitude": 34}}</td>
 <td>instance.coordinates.latitude must have a minimum value of -90</td>
 <td>passed</td></tr>
 <tr>
 <td>17</td>
 <td>test17</td>
 <td>Latitude can only range from 0 to +-90 degrees</td>
-<td>latitude set to '100'</td>
+<td>{"parameter": "pm25", "unit": "ppm", "value": 14, "date": {"local": "2016-01-24T19:00:04+00:00"}, "coordinates": {"latitude": -91, "longitude": 190}}</td>
 <td>instance.coordinates.latitude must have a minimum value of -90=1, instance.coordinates.longitude must have a maximum value of 180=1</td>
 <td>passed</td></tr>
 <tr>
 <td>18</td>
 <td>test18</td>
 <td>Longitude ranges from -180 to 180</td>
-<td>longitude set to '190'</td>
+<td>{"parameter": "pm25", "unit": "ppm", "value": 14, "date": {"local": "2016-01-24T19:00:04+00:00"}, "coordinates": {"latitude": -25, "longitude": 190}}</td>
 <td>instance.coordinates.longitude must have a maximum value of 180=1</td>
 <td>passed</td></tr>
 <tr>
 <td>19</td>
 <td>test19</td>
 <td>Longitude ranges from -180 to 180</td>
-<td>longitude set to '360'</td>
+<td>{"parameter": "pm25", "unit": "ppm", "value": 14, "date": {"local": "2016-01-24T19:00:04+00:00"}, "coordinates": {"latitude": -250, "longitude": 360}}</td>
 <td>instance.coordinates.longitude must have a maximum value of 180=1</td>
 <td>passed</td></tr>
 <tr>
 <td>1</td>
 <td>test1</td>
 <td>Data must be of one of these pollutant types: PM10, PM2.5, sulfur dioxide (SO2), carbon monoxide (CO), nitrogen dioxide (NO2), ozone (O3), and black carbon (BC).</td>
-<td>Set the unit field to "ppq"</td>
+<td>{"parameter": "pm25", "unit": "ppq", "value": 10, "date": {"local": "2016-01-24T19:00:00+00:00"}, "coordinates": {"latitude": -20, "longitude": 34}}</td>
 <td>1 occurrences of instance.unit is not one of enum values: µg/m³,ppm</td>
 <td>passed</td></tr>
 <tr>
 <td>20</td>
 <td>test20</td>
-<td>Latitude can only range from 0 to +-90 degrees, Longitude ranges from -180 to 180</td>
-<td>latitude set to '-100', longitude set to '200'</td>
-<td>instance.coordinates.latitude must have a minimum value of -90=1, instance.coordinates.longitude must have a maximum value of 180=1</td>
+<td>Longitude ranges from -180 to 180</td>
+<td>{"parameter": "pm25", "unit": "ppm", "value": 15, "date": {"local": "2016-01-24T19:00:05+00:00"}, "coordinates": {"latitude": 20, "longitude": -200}}</td>
+<td>1 occurrences of instance.coordinates.longitude must have a minimum value of -180</td>
 <td>passed</td></tr>
 <tr>
 <td>21</td>
 <td>test21</td>
 <td>Latitude can only range from 0 to +-90 degrees, including 0</td>
-<td>latitude set to '0'</td>
-<td>itemsInserted=2</td>
+<td>{"parameter": "pm25", "unit": "ppm", "value": 15, "date": {"local": "2016-01-24T11:00:06+06:00"}, "coordinates": {"latitude": 0, "longitude": 34}}</td>
+<td>New measurements found for test: 1</td>
 <td>passed</td></tr>
 <tr>
 <td>22</td>
 <td>test22</td>
 <td>Latitude can only range from 0 to +-90 degrees, including 0</td>
-<td>latitude set to '-0'</td>
-<td>itemsInserted=2</td>
+<td>{"parameter": "pm25", "unit": "ppm", "value": 15, "date": {"local": "2016-01-24T11:00:06+06:00"}, "coordinates": {"latitude": -0, "longitude": 34}}</td>
+<td>New measurements found for test: 1</td>
 <td>passed</td></tr>
 <tr>
 <td>23</td>
 <td>test23</td>
 <td>Longitude can only range from 0 to +-180 degrees, including 0</td>
-<td>longitude set to '0'</td>
-<td>itemsInserted=2</td>
+<td>{"parameter": "pm25", "unit": "ppm", "value": 15, "date": {"local": "2016-01-24T11:00:06+06:00"}, "coordinates": {"latitude": -20, "longitude": 0}}</td>
+<td>New measurements found for test: 1</td>
 <td>passed</td></tr>
 <tr>
 <td>24</td>
 <td>test24</td>
 <td>Longitude can only range from 0 to +-180 degrees, including 0</td>
-<td>longitude set to '-0'</td>
-<td>itemsInserted=2</td>
+<td>{"parameter": "pm25", "unit": "ppm", "value": 15, "date": {"local": "2016-01-24T11:00:06+06:00"}, "coordinates": {"latitude": -20, "longitude": -0}}</td>
+<td>New measurements found for test: 1</td>
 <td>passed</td></tr>
 <tr>
 <td>25</td>
 <td>test25</td>
 <td>Longitude and latitude should be able to set to 0</td>
-<td>longitude set to '-0', latitude set to '-0'</td>
-<td>itemsInserted=2</td>
+<td>{"parameter": "pm25", "unit": "ppm", "value": 15, "date": {"local": "2016-01-24T11:00:06+06:00"}, "coordinates": {"latitude": -0, "longitude": -0}}</td>
+<td>New measurements found for test: 1</td>
 <td>passed</td></tr>
+<tr>
+<td>26</td>
+<td>test26</td>
+<td>This oracle is bad and the test should fail.</td>
+<td>{"parameter": "pm25", "unit": "ppm", "value": 15, "date": {"local": "2016-01-24T11:00:06+06:00"}, "coordinates": {"latitude": -20, "longitude": -10}}</td>
+<td>Fail this test</td>
+<td>failed</td></tr>
 <tr>
 <td>2</td>
 <td>test2</td>
 <td>Data must be of one of these pollutant types: PM10, PM2.5, sulfur dioxide (SO2), carbon monoxide (CO), nitrogen dioxide (NO2), ozone (O3), and black carbon (BC).</td>
-<td>Set the unit field to "pp"</td>
+<td>{"parameter": "pm25", "unit": "pp", "value": 13, "date": {"local": "2016-01-24T19:00:03+00:00"}, "coordinates": {"latitude": -20, "longitude": 34}}</td>
 <td>1 occurrences of instance.unit is not one of enum values: µg/m³,ppm</td>
 <td>passed</td></tr>
 <tr>
 <td>3</td>
 <td>test3</td>
 <td>Data must be of one of these pollutant types: PM10, PM2.5, sulfur dioxide (SO2), carbon monoxide (CO), nitrogen dioxide (NO2), ozone (O3), and black carbon (BC).</td>
-<td>Set the unit field to "10"</td>
+<td>{"parameter": "pm25", "unit": "10", "value": 10, "date": {"local": "2016-01-24T19:00:00+00:00"}, "coordinates": {"latitude": -20, "longitude": 34}}</td>
 <td>1 occurrences of instance.unit is not one of enum values: µg/m³,ppm</td>
 <td>passed</td></tr>
 <tr>
 <td>4</td>
 <td>test4</td>
 <td>Data must be of one of these pollutant types: PM10, PM2.5, sulfur dioxide (SO2), carbon monoxide (CO), nitrogen dioxide (NO2), ozone (O3), and black carbon (BC).</td>
-<td>Set the unit field to µg/m </td>
+<td>{"parameter": "pm25", "unit": "µg/m", "value": 10, "date": {"local": "2016-01-24T19:00:00+00:00"}, "coordinates": {"latitude": -20, "longitude": 34}} </td>
 <td>1 occurrences of instance.unit is not one of enum values: µg/m³,ppm</td>
 <td>passed</td></tr>
 <tr>
 <td>5</td>
 <td>test5</td>
 <td>Data must be of one of these pollutant types: PM10, PM2.5, sulfur dioxide (SO2), carbon monoxide (CO), nitrogen dioxide (NO2), ozone (O3), and black carbon (BC).</td>
-<td>Set the unit field to "µg"</td>
+<td>{"parameter": "pm25", "unit": "µg", "value": 10, "date": {"local": "2016-01-24T19:00:00+00:00"}, "coordinates": {"latitude": -20, "longitude": 34}}</td>
 <td>1 occurrences of instance.unit is not one of enum values: µg/m³,ppm</td>
 <td>passed</td></tr>
 <tr>
 <td>6</td>
 <td>test6</td>
 <td>Parameter field must be set to one of the following: pm25, pm10, no2, so2, o3, co, bc.</td>
-<td>Set the parameter field to "pm"</td>
+<td>{"parameter": "pm", "unit": "ppm", "value": 16, "date": {"local": "2016-01-24T19:00:06+00:00"}, "coordinates": {"latitude": -20, "longitude": 34}}</td>
 <td>1 occurrences of instance.parameter is not one of enum values: pm25,pm10,no2,so2,o3,co,bc</td>
 <td>passed</td></tr>
 <tr>
 <td>7</td>
 <td>test7</td>
 <td>Parameter field must be set to one of the following: pm25, pm10, no2, so2, o3, co, bc.</td>
-<td>Set the parameter field to ""</td>
+<td>{"parameter": "", "unit": "ppm", "value": 16, "date": {"local": "2016-01-24T19:00:06+00:00"}, "coordinates": {"latitude": -20, "longitude": 34}}</td>
 <td>1 occurrences of instance.parameter is not one of enum values: pm25,pm10,no2,so2,o3,co,bc</td>
 <td>passed</td></tr>
 <tr>
 <td>8</td>
 <td>test8</td>
 <td>Parameter field must be set to one of the following: pm25, pm10, no2, so2, o3, co, bc.</td>
-<td>Set the parameter field to "ppm"</td>
+<td>{"parameter": "ppm", "unit": "ppm", "value": 16, "date": {"local": "2016-01-24T19:00:06+00:00"}, "coordinates": {"latitude": -20, "longitude": 34}}</td>
 <td>1 occurrences of instance.parameter is not one of enum values: pm25,pm10,no2,so2,o3,co,bc</td>
 <td>passed</td></tr>
 <tr>
 <td>9</td>
 <td>test9</td>
 <td>Parameter field must be set to one of the following: pm25, pm10, no2, so2, o3, co, bc.</td>
-<td>Set the parameter field to "pm20"</td>
+<td>{"parameter": "pm20", "unit": "ppm", "value": 16, "date": {"local": "2016-01-24T19:00:06+00:00"}, "coordinates": {"latitude": -20, "longitude": 34}}</td>
 <td>1 occurrences of instance.parameter is not one of enum values: pm25,pm10,no2,so2,o3,co,bc</td>
-<td>passed</td></tr>
+<td>failed</td></tr>
 </table>
 
 <script>

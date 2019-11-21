@@ -1,0 +1,6 @@
+26
+test26
+Fail this test
+{"parameter": "pm25", "unit": "ppm", "value": 15, "date": {"local": "2016-01-24T11:00:06+06:00"}, "coordinates": {"latitude": -20, "longitude": -10}}
+This oracle is bad and the test should fail.
+
