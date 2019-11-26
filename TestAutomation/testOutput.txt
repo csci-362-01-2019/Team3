@@ -1,15 +1,15 @@
-2019-11-21T02:01:19.249Z - [32minfo[39m: --- Dry run for Testing, nothing is saved to the database. ---
-2019-11-21T02:01:19.276Z - [32minfo[39m: Looking up source test
-2019-11-21T02:01:19.376Z - [32minfo[39m: Getting stream for "test" from "Dummy"
-2019-11-21T02:01:19.377Z - [32minfo[39m: Getting stream for "test" from "Dummy"
-2019-11-21T02:01:19.397Z - [32minfo[39m: Fetch results for test
-2019-11-21T02:01:19.397Z - [32minfo[39m: ///////
-2019-11-21T02:01:19.397Z - [32minfo[39m: New measurements found for "test": 0 in 0.013s
-2019-11-21T02:01:19.398Z - [32minfo[39m: 1 occurrences of instance.parameter is not one of enum values: pm25,pm10,no2,so2,o3,co,bc
-2019-11-21T02:01:19.398Z - [32minfo[39m: ///////
-2019-11-21T02:01:19.399Z - [32minfo[39m: Fetch results for test
-2019-11-21T02:01:19.399Z - [32minfo[39m: ///////
-2019-11-21T02:01:19.399Z - [32minfo[39m: New measurements found for "test": 7 in 0.018s
-2019-11-21T02:01:19.400Z - [32minfo[39m: ///////
-2019-11-21T02:01:19.400Z - [32minfo[39m:  itemsInserted=7, timeStarted=1574301679250, results=[message=[Dry Run] New measurements found for test: 7, , count=7, duration=0.018, sourceName=test, message=[Dry Run] New measurements found for test: 0, instance.parameter is not one of enum values: pm25,pm10,no2,so2,o3,co,bc=1, count=0, duration=0.013, sourceName=test], instance.parameter is not one of enum values: pm25,pm10,no2,so2,o3,co,bc=1, timeEnded=1574301679400
-2019-11-21T02:01:19.401Z - [32minfo[39m: Dry run ended.
+2019-11-26T02:11:10.824Z - [32minfo[39m: --- Dry run for Testing, nothing is saved to the database. ---
+2019-11-26T02:11:10.850Z - [32minfo[39m: Looking up source test
+2019-11-26T02:11:10.949Z - [32minfo[39m: Getting stream for "test" from "Dummy"
+2019-11-26T02:11:10.950Z - [32minfo[39m: Getting stream for "test" from "Dummy"
+2019-11-26T02:11:10.969Z - [32minfo[39m: Fetch results for test
+2019-11-26T02:11:10.970Z - [32minfo[39m: ///////
+2019-11-26T02:11:10.970Z - [32minfo[39m: New measurements found for "test": 0 in 0.014s
+2019-11-26T02:11:10.970Z - [32minfo[39m: 1 occurrences of instance.parameter is not one of enum values: pm25,pm10,no2,so2,o3,co,bc
+2019-11-26T02:11:10.970Z - [32minfo[39m: ///////
+2019-11-26T02:11:10.972Z - [32minfo[39m: Fetch results for test
+2019-11-26T02:11:10.972Z - [32minfo[39m: ///////
+2019-11-26T02:11:10.972Z - [32minfo[39m: New measurements found for "test": 7 in 0.018s
+2019-11-26T02:11:10.972Z - [32minfo[39m: ///////
+2019-11-26T02:11:10.973Z - [32minfo[39m:  itemsInserted=7, timeStarted=1574734270825, results=[message=[Dry Run] New measurements found for test: 7, , count=7, duration=0.018, sourceName=test, message=[Dry Run] New measurements found for test: 0, instance.parameter is not one of enum values: pm25,pm10,no2,so2,o3,co,bc=1, count=0, duration=0.014, sourceName=test], instance.parameter is not one of enum values: pm25,pm10,no2,so2,o3,co,bc=1, timeEnded=1574734270973
+2019-11-26T02:11:10.973Z - [32minfo[39m: Dry run ended.

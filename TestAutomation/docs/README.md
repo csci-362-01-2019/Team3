@@ -7,7 +7,7 @@ Install necessary Node.js packages by running
 To run all test scripts:
 In a terminal, navigate to Team3/TestAutomation, then run
 
-`./scripts/runAll.sh`
+`./scripts/runAllTests.sh`
 
 This will run the first five test cases and display the results in a web page.
 The first five test cases test the "parameter" field of the makeSourceFromData function.

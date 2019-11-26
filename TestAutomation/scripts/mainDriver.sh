@@ -1,6 +1,8 @@
 #!/bin/bash
 
-# This is the script for running our project
+# OpenAQ - Fetch main driver script
+# Team3: Benjamin Duke, Matt, Tino
+# This is the main script for running our project. A data file is built from a template and the input from each test case file. The script then makes a command to run the data file. The command causes OpenAQ to fetch the created data file. The data file is checked to be within the requirements set by OpenAQ to determine if the source is valid. If the source is not valid, we will get error reports in the output from the fetch command. The oracles from the test cases are searched for in the test output, to ensure we get the expected results that meet the requirements for air quality data.
 
 arr=()
 passCount=0
@@ -8,6 +10,8 @@ failCount=0
 
 #cd ..
 
+# This for loop reads in each file from testCases, then puts each line 
+# into an array to be used later.
 for file in testCases/*.txt; #for reading in contents 
     do
     #echo "Running: $file"
@@ -35,6 +39,9 @@ for file in testCases/*.txt; #for reading in contents
 	#name="$jsonFile"
 	#echo $name
 	#cd ..
+
+# Here is where the data file is created. A template is used along with the input from
+# the test case file to create the data file. The data file is later called by fetch.
 	echo "
 [
   {
@@ -72,6 +79,9 @@ for file in testCases/*.txt; #for reading in contents
 	#echo $oracle
 	# Grepping
 	#myCount=grep -c "$oracle" testOutput.txt
+
+	# The if condition only triggers if the oracle is found in the
+	# output from the test run.
 	if grep -q -F "$oracle" testOutput.txt
 	then
 		  echo "<td>passed</td></tr>"
