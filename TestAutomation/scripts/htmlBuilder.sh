@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+# Function to read a file and echo each line.
 readFile()
 {
 input="output.txt"
@@ -11,6 +11,7 @@ do
 done < "$input"
 }
 
+# Function to build a table, currently disabled
 buildTable()
 {
 arr=()
@@ -18,6 +19,7 @@ arr=()
 #while IFS= read -r 
 }
 
+# Function to created html list items from lines in a text file
 report()
 {
 for line in output.txt
@@ -25,6 +27,8 @@ do
 	echo "<LI>$line<</LI>"
 done
 }
+
+# HTML template, with sorting script set to run on table completion (from W3schools.com guide)
 
 cat <<- _EOF_
 <html>
